@@ -2,13 +2,13 @@
 
 ## 2023
 
-De Luigi, Luca*, Cardace, Adriano*, Spezialetti, Riccardo*, Zama Ramirez, Pierluigi, Salti, Samuele, Di Stefano, Luigi. (*Equal Contribution) \
+De Luigi, Luca\*, Cardace, Adriano\*, Spezialetti, Riccardo\*, Zama Ramirez, Pierluigi, Salti, Samuele, Di Stefano, Luigi. (\*Equal Contribution) \
 _Deep Learning on Implicit Neural Representations of Shapes_ \
 __ICLR 2023__ \
 [[Project Page]](https://cvlab-unibo.github.io/inr2vec/)
 [[Paper]](https://arxiv.org/abs/2302.05438)
 
-Zama Ramirez, Pierluigi*, Cardace, Adriano*, De Luigi, Luca*, Tonioni, Alessio, Salti, Samuele, Di Stefano, Luigi. (*Equal Contribution) \
+Zama Ramirez, Pierluigi\*, Cardace, Adriano\*, De Luigi, Luca\*, Tonioni, Alessio, Salti, Samuele, Di Stefano, Luigi. (\*Equal Contribution) \
 Learning Good Features to Transfer Across Tasks and Domains \
 __TPAMI 2023__ \
 [[Paper]](https://arxiv.org/abs/2301.11310)
@@ -21,19 +21,19 @@ __WACV 2023__ \
 
 ## 2022
 
-Poggi, Matteo*, Zama Ramirez, Pierluigi*, Tosi, Fabio*, Salti, Samuele, Mattoccia, Stefano, Di Stefano, Luigi. (*Equal Contribution) \
+Poggi, Matteo\*, Zama Ramirez, Pierluigi\*, Tosi, Fabio\*, Salti, Samuele, Mattoccia, Stefano, Di Stefano, Luigi. (\*Equal Contribution) \
 _Cross-Spectral Neural Radiance Fields._ \
 __3DV 2022__ \
 [[Project Page]](https://cvlab-unibo.github.io/xnerf-web/)
 [[Paper]](https://arxiv.org/pdf/2209.00648.pdf)
 
-Zama Ramirez, Pierluigi*, Tosi, Fabio*, Poggi, Matteo*, Salti, Samuele, Mattocia, Stefano, Di Stefano, Luigi. (*Equal Contribution)\
+Zama Ramirez, Pierluigi\*, Tosi, Fabio\*, Poggi, Matteo\*, Salti, Samuele, Mattocia, Stefano, Di Stefano, Luigi. (\*Equal Contribution)\
 _Open Challenges in Deep Stereo: the Booster Dataset_ \
 __CVPR 2022__ \
 [[Project Page]](https://cvlab-unibo.github.io/booster-web/)
 [[Paper]](https://arxiv.org/abs/2206.04671)
 
-Tosi, Fabio*, Zama Ramirez, Pierluigi*, Poggi, Matteo*, Salti, Samuele, Mattocia, Stefano, Di Stefano, Luigi. (*Equal Contribution)\
+Tosi, Fabio\*, Zama Ramirez, Pierluigi\*, Poggi, Matteo\*, Salti, Samuele, Mattocia, Stefano, Di Stefano, Luigi. (\*Equal Contribution)\
 _RGB-Multispectral Matching: Dataset, Learning Methodology, Evaluation_\
 __CVPR 2022__ \
 [[Project Page]](https://cvlab-unibo.github.io/rgb-ms-web/)
@@ -59,7 +59,7 @@ __3DV 2021. Oral__ \
 [[Project Page]](https://github.com/CVLAB-Unibo/RefRec) 
 [[Paper]](https://arxiv.org/pdf/2110.11036.pdf)
 
-Aleotti, Filippo*, Tosi, Fabio*, Zama Ramirez, Pierluigi*, Poggi, Matteo, Salti, Samuele, Mattoccia, Stefano, Di Stefano, Luigi. (*Equal Contribution) \
+Aleotti, Filippo\*, Tosi, Fabio\*, Zama Ramirez, Pierluigi\*, Poggi, Matteo, Salti, Samuele, Mattoccia, Stefano, Di Stefano, Luigi. (\*Equal Contribution) \
 _Neural Disparity Refinement for Arbitrary Resolution Stereo_ \
 __3DV 2021. Best Paper Honorable Mention__ \
 [[Project Page]](https://cvlab-unibo.github.io/neural-disparity-refinement-web)
@@ -78,7 +78,7 @@ __AIVR 2020. Best Paper Nominee__ \
 [[Project Page]](https://cvlab-unibo.github.io/shootinglabelsweb/)
 [[Paper]](https://arxiv.org/abs/1910.05021)
 
-Tosi, Fabio*, Aleotti, Filippo*, Zama Ramirez, Pierluigi*, Poggi, Matteo Salti, Samuele, Mattocia, Stefano, Di Stefano, Luigi. (*Equal Contribution)\
+Tosi, Fabio\*, Aleotti, Filippo\*, Zama Ramirez, Pierluigi\*, Poggi, Matteo Salti, Samuele, Mattocia, Stefano, Di Stefano, Luigi. (\*Equal Contribution)\
 _Distilled Semantics for Comprehensive Scene Understanding from Videos_ \
 __CVPR 2020__ \
 [[Project Page]](https://github.com/CVLAB-Unibo/omeganet)
