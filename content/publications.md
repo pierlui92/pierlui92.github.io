@@ -2,6 +2,17 @@
 
 ## 2023
 
+De Luigi, Luca*, Cardace, Adriano*, Spezialetti, Riccardo*, Zama Ramirez, Pierluigi, Salti, Samuele, Di Stefano, Luigi. (*Equal Contribution) \
+_Deep Learning on Implicit Neural Representations of Shapes_ \
+__ICLR 2023__ \
+[[Project Page]](https://cvlab-unibo.github.io/inr2vec/)
+[[Paper]](https://arxiv.org/abs/2302.05438)
+
+Zama Ramirez, Pierluigi*, Cardace, Adriano*, De Luigi, Luca*, Tonioni, Alessio, Salti, Samuele, Di Stefano, Luigi. (*Equal Contribution) \
+Learning Good Features to Transfer Across Tasks and Domains \
+__TPAMI 2023__ \
+[[Paper]](https://arxiv.org/abs/2301.11310)
+
 Cardace, Adriano, Spezialetti, Riccardo, Zama Ramirez, Pierluigi, Salti, Samuele, Di Stefano, Luigi. \
 _Self-Distillation for Unsupervised 3D Domain Adaptation._ \
 __WACV 2023__ \
@@ -10,7 +21,7 @@ __WACV 2023__ \
 
 ## 2022
 
-Poggi, Matteo*, Zama Ramirez, Pierluigi*, Tosi, Fabio*, Salti, Samuele, Mattoccia, Stefano, Di Stefano, Luigi.(*Equal Contribution) \
+Poggi, Matteo*, Zama Ramirez, Pierluigi*, Tosi, Fabio*, Salti, Samuele, Mattoccia, Stefano, Di Stefano, Luigi. (*Equal Contribution) \
 _Cross-Spectral Neural Radiance Fields._ \
 __3DV 2022__ \
 [[Project Page]](https://cvlab-unibo.github.io/xnerf-web/)
