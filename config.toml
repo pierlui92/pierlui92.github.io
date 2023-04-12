@@ -54,7 +54,7 @@ languageName = "English"
     pre = ""
     post = ""
     name = "CV"
-    url = "cv/cvcompact.pdf"
+    url = "cv/cv.pdf"
     title = ""
 
 # Markup related configuration in Hugo
