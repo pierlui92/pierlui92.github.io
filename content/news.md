@@ -1,5 +1,9 @@
 ## 2023
 
+* Co-organizing NTIRE 2023 Workshop at CVPR 2023!
+* 1 paper accepted at WAD Workshop on Autonomous Driving (CVPR 2023)!
+* 1 paper accepted at ICLR!
+* 1 paper accepted at TPAMI!
 * 1 paper accepted at WACV!
 
 ## 2022
