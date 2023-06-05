@@ -2,20 +2,25 @@
 
 ## 2023
 
+Zama Ramirez, Pierluigi, Tosi, Fabio, Di Stefano, Luigi, Timofte, Radu, Costanzino, Alex, Poggi, Matteo, Salti, Samuele, Mattoccia, Stefano.\
+_NTIRE 2023 Challenge on HR Depth from Images of Specular and Transparent Surfaces._ \
+__NTIRE 2023 - CVPRW 2023__ \
+[[Paper]](https://openaccess.thecvf.com/content/CVPR2023W/NTIRE/papers/Ramirez_NTIRE_2023_Challenge_on_HR_Depth_From_Images_of_Specular_CVPRW_2023_paper.pdf)
+
 Cardace, Adriano, Zama Ramirez, Pierluigi, Salti, Samuele, Di Stefano, Luigi. \
-Learning Good Features to Transfer Across Tasks and Domains \
+_Exploiting the Complementarity of 2D and 3D Networks to Address Domain-Shift in 3D Semantic Segmentation._ \
 __WAD - CVPRW 2023__ \
 [[Paper]](https://arxiv.org/pdf/2304.02991.pdf)
 [[Paper]](https://github.com/CVLAB-Unibo/MM2D3D)
 
 De Luigi, Luca\*, Cardace, Adriano\*, Spezialetti, Riccardo\*, Zama Ramirez, Pierluigi, Salti, Samuele, Di Stefano, Luigi. (\*Equal Contribution) \
-_Deep Learning on Implicit Neural Representations of Shapes_ \
+_Deep Learning on Implicit Neural Representations of Shapes._ \
 __ICLR 2023__ \
 [[Project Page]](https://cvlab-unibo.github.io/inr2vec/)
 [[Paper]](https://arxiv.org/abs/2302.05438)
 
 Zama Ramirez, Pierluigi\*, Cardace, Adriano\*, De Luigi, Luca\*, Tonioni, Alessio, Salti, Samuele, Di Stefano, Luigi. (\*Equal Contribution) \
-Learning Good Features to Transfer Across Tasks and Domains \
+_Learning Good Features to Transfer Across Tasks and Domains._ \
 __TPAMI 2023__ \
 [[Paper]](https://arxiv.org/abs/2301.11310)
 
