@@ -11,7 +11,7 @@ Cardace, Adriano, Zama Ramirez, Pierluigi, Salti, Samuele, Di Stefano, Luigi. \
 _Exploiting the Complementarity of 2D and 3D Networks to Address Domain-Shift in 3D Semantic Segmentation._ \
 __WAD - CVPRW 2023__ \
 [[Paper]](https://arxiv.org/pdf/2304.02991.pdf)
-[[Paper]](https://github.com/CVLAB-Unibo/MM2D3D)
+[[Code]](https://github.com/CVLAB-Unibo/MM2D3D)
 
 De Luigi, Luca\*, Cardace, Adriano\*, Spezialetti, Riccardo\*, Zama Ramirez, Pierluigi, Salti, Samuele, Di Stefano, Luigi. (\*Equal Contribution) \
 _Deep Learning on Implicit Neural Representations of Shapes._ \
