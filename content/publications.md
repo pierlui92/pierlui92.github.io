@@ -153,8 +153,12 @@ _A Novel Generative Model to Synthetize Realistic Training Images._ \
 __Conference on Imaging Science (SIAM) 2018__ \
 [[Poster]](https://www.siam-is18.dm.unibo.it/uploads/store/168f206221f71e84bb90b147edd08fc7.pdf)
 
-## Under Submission
+## Arxiv
 
 Zama Ramirez, Pierluigi, Tonioni, Alessio, Tombari, Federico. \
 _Unsupervised Novel View Synthesis from a Single Image_ \
 [[Paper]](https://arxiv.org/pdf/2102.03285.pdf)
+
+Cardace, Adriano, Zama Ramirez, Pierluigi, Ballerini Francesco, Zhou, Allan, Salti, Samuele, Di Stefano, Luigi. \
+_Neural Processing of Tri-Plane Hybrid Neural Fields_ \
+[[Paper]](https://arxiv.org/pdf/2310.01140.pdf)
