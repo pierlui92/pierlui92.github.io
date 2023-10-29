@@ -2,6 +2,24 @@
 
 ## 2023
 
+Zama Ramirez, Pierluigi, Costanzino, Alex, Tosi, Fabio, Poggi, Matteo, Salti, Samuele, Mattoccia, Stefano, and Di Stefano, Luigi. \
+_Booster: a Benchmark for Depth from Images of Specular and Transparent Surfaces_ \
+__TPAMI 2023__ \
+[[Project Page]](https://cvlab-unibo.github.io/booster-web/)
+[[Paper]](https://doi.org/10.1109/TPAMI.2023.3323858)
+
+Cardace, Adriano, Conti, Andrea, Zama Ramirez, Pierluigi, Spezialetti, Riccardo, Salti, Samuele and Di Stefano, Luigi. \
+_Boosting Multi-Modal Unsupervised Domain Adaptation for LiDAR Semantic Segmentation by Self-Supervised Depth Completion_ \
+__IEEE Access__ \
+[[Project Page]](https://cvlab-unibo.github.io/cts-web/)
+[[Paper]](https://doi.org/10.1109/ACCESS.2023.3304542)
+
+Costanzino, Alex\*, Zama Ramirez, Pierluigi\*, Poggi, Matteo\*, Tosi, Fabio, Mattoccia, Stefano, and Di Stefano, Luigi. \
+_Learning Depth Estimation for Transparent and Mirror Surfaces_ \
+__ICCV 2023__ \
+[[Project Page]](https://cvlab-unibo.github.io/Depth4ToM/)
+[[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Costanzino_Learning_Depth_Estimation_for_Transparent_and_Mirror_Surfaces_ICCV_2023_paper.pdf)
+
 Zama Ramirez, Pierluigi, Tosi, Fabio, Di Stefano, Luigi, Timofte, Radu, Costanzino, Alex, Poggi, Matteo, Salti, Samuele, Mattoccia, Stefano.\
 _NTIRE 2023 Challenge on HR Depth from Images of Specular and Transparent Surfaces._ \
 __NTIRE 2023 - CVPRW 2023__ \
