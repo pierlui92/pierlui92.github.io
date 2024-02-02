@@ -1,5 +1,13 @@
 # Publications & Conferences
 
+## 2024
+
+Cardace, Adriano, Zama Ramirez, Pierluigi, Ballerini, Francesco, Zhou, Allan, Salti, Samuele, Di Stefano, Luigi. \
+_Neural Processing of Tri-Plane Hybrid Neural Fields_ \
+__ICLR 2023__ \
+[[Project Page]](https://github.com/CVLAB-Unibo/triplane_processing)
+[[Paper]](https://openreview.net/pdf?id=zRkM6UcA22)
+
 ## 2023
 
 Zama Ramirez, Pierluigi, Costanzino, Alex, Tosi, Fabio, Poggi, Matteo, Salti, Samuele, Mattoccia, Stefano, and Di Stefano, Luigi. \
