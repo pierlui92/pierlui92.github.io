@@ -1,5 +1,6 @@
 ## 2024
 
+* 1 paper accepted at CVPR!
 * Co-organizing NTIRE 2024 Workshop at CVPR 2024!
 * 1 paper accepted at ICLR!
 

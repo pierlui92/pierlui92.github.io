@@ -2,7 +2,7 @@
 
 Hi!
 
-I am a post-doctoral researcher in Computer Vision and Deep Learning at the University of Bologna under the supervision of Professor Luigi Di Stefano.
+I am a researcher in Computer Vision and Deep Learning at the University of Bologna under the supervision of Professor Luigi Di Stefano.
 
 I got my master and bechelor degrees in Computer Engineering in 2014 and 2017 respectively. 
 In 2021, I received my PhD in Computer Science and Engineering. 

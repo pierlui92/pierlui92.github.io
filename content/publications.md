@@ -2,9 +2,14 @@
 
 ## 2024
 
+Costanzino, Alex, Zama Ramirez, Pierluigi, Lisanti, Giuseppe, Di Stefano, Luigi. \
+_Multimodal Industrial Anomaly Detection by Crossmodal Feature Mapping_ \
+__CVPR 2024__ \
+[[Paper]](https://arxiv.org/pdf/2312.04521.pdf)
+
 Cardace, Adriano, Zama Ramirez, Pierluigi, Ballerini, Francesco, Zhou, Allan, Salti, Samuele, Di Stefano, Luigi. \
 _Neural Processing of Tri-Plane Hybrid Neural Fields_ \
-__ICLR 2023__ \
+__ICLR 2024__ \
 [[Project Page]](https://github.com/CVLAB-Unibo/triplane_processing)
 [[Paper]](https://openreview.net/pdf?id=zRkM6UcA22)
 
