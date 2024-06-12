@@ -2,6 +2,26 @@
 
 ## 2024
 
+Tosi, Fabio, Aleotti, Filippo, Zama Ramirez, Pierluigi, Poggi, Matteo, Salti, Samuele, Mattoccia, Stefano, and Di Stefano, Luigi. \
+_Neural Disparity Refinement_ \
+__TPAMI 2024__ \
+[[Paper]](https://ieeexplore.ieee.org/document/10552115)
+
+Zama Ramirez, Pierluigi, Tosi, Fabio, Di Stefano, Luigi, Timofte, Radu, Costanzino, Alex, Poggi, Matteo, Salti, Samuele, and Mattoccia, Stefano. \
+_NTIRE 2024 Challenge on HR Depth From Images of Specular and Transparent Surfaces"_ \
+__CVPRW 2024__
+
+Costanzino, Alex, Zama Ramirez, Pierluigi, Del Moro, Mirko, Aiezzo, Agostino, Lisanti, Giuseppe, and Di Stefano, Luigi. \
+_Test Time Training for Industrial Anomaly Segmentation_ \
+__CVPRW 2024__ \
+[[Paper]](https://arxiv.org/abs/2404.03743)
+
+Ballerini, Francesco, Zama Ramirez, Pierluigi, Mirabella, Roberto, Salti, Samuele, and Di Stefano, Luigi. \
+_Connecting NeRFs, Images, and Text_ \
+__CVPRW 2024__ \
+[[Project Page]](https://cvlab-unibo.github.io/clip2nerf/)
+[[Paper]](https://arxiv.org/abs/2404.07993)
+
 Costanzino, Alex, Zama Ramirez, Pierluigi, Lisanti, Giuseppe, Di Stefano, Luigi. \
 _Multimodal Industrial Anomaly Detection by Crossmodal Feature Mapping_ \
 __CVPR 2024__ \
