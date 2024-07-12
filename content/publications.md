@@ -2,6 +2,11 @@
 
 ## 2024
 
+Tosi, Fabio, Zama Ramirez, Pierluigi, Poggi, Matteo. \
+_Diffusion Models for Monocular Depth Estimation: Overcoming Challenging Conditions_ \
+__ECCV 2024__ \
+[[Project Page]](https://diffusion4robustdepth.github.io/)
+
 Tosi, Fabio, Aleotti, Filippo, Zama Ramirez, Pierluigi, Poggi, Matteo, Salti, Samuele, Mattoccia, Stefano, and Di Stefano, Luigi. \
 _Neural Disparity Refinement_ \
 __TPAMI 2024__ \
@@ -25,6 +30,7 @@ __CVPRW 2024__ \
 Costanzino, Alex, Zama Ramirez, Pierluigi, Lisanti, Giuseppe, Di Stefano, Luigi. \
 _Multimodal Industrial Anomaly Detection by Crossmodal Feature Mapping_ \
 __CVPR 2024__ \
+[[Project Page]](https://cvlab-unibo.github.io/CrossmodalFeatureMapping/)
 [[Paper]](https://arxiv.org/pdf/2312.04521.pdf)
 
 Cardace, Adriano, Zama Ramirez, Pierluigi, Ballerini, Francesco, Zhou, Allan, Salti, Samuele, Di Stefano, Luigi. \
