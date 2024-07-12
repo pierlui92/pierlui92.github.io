@@ -5,7 +5,7 @@
 Tosi, Fabio, Zama Ramirez, Pierluigi, Poggi, Matteo. \
 _Diffusion Models for Monocular Depth Estimation: Overcoming Challenging Conditions_ \
 __ECCV 2024__ \
-[[Project Page]](https://diffusion4robustdepth.github.io/) \
+[[Project Page]](https://diffusion4robustdepth.github.io/)
 
 {{< figure src="/paper_images/ndr_journal.png">}}
 Tosi, Fabio, Aleotti, Filippo, Zama Ramirez, Pierluigi, Poggi, Matteo, Salti, Samuele, Mattoccia, Stefano, and Di Stefano, Luigi. \
