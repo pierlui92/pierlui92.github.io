@@ -1,5 +1,6 @@
 ## 2024
 
+* 1 paper accepted at TPAMI!
 * 1 paper accepted at ECCV!
 * 1 paper accepted at TPAMI!
 * Co-organizing TRICKY 2024 Workshop at ECCV 2024!

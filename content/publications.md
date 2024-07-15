@@ -1,6 +1,14 @@
 # Publications & Conferences
 
 ## 2024
+{{< figure src="/paper_images/nf2vec.png" >}}
+Zama Ramirez, Pierluigi\*, De Luigi, Luca\*, Sirocchi, Daniele\*, Cardace, Adriano, Spezialetti, Riccardo, Ballerini, Francesco, Salti, Samuele, Di Stefano, Luigi. (\*Equal Contribution) \
+_Deep Learning on Object-centric 3D Neural Fields_ \
+__TPAMI 2024__ \
+[[Project Page]](https://cvlab-unibo.github.io/nf2vec/)
+[[Paper]](https://arxiv.org/abs/2312.13277)
+
+
 {{< figure src="/paper_images/depth4robust.png" >}}
 Tosi, Fabio, Zama Ramirez, Pierluigi, Poggi, Matteo. \
 _Diffusion Models for Monocular Depth Estimation: Overcoming Challenging Conditions_ \
@@ -13,6 +21,7 @@ _Neural Disparity Refinement_ \
 __TPAMI 2024__ \
 [[Paper]](https://ieeexplore.ieee.org/document/10552115)
 
+{{< figure src="/paper_images/ntire2024.png" >}}
 Zama Ramirez, Pierluigi, Tosi, Fabio, Di Stefano, Luigi, Timofte, Radu, Costanzino, Alex, Poggi, Matteo, Salti, Samuele, and Mattoccia, Stefano. \
 _NTIRE 2024 Challenge on HR Depth From Images of Specular and Transparent Surfaces"_ \
 __CVPRW 2024__
@@ -67,6 +76,7 @@ __ICCV 2023__ \
 [[Project Page]](https://cvlab-unibo.github.io/Depth4ToM/)
 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Costanzino_Learning_Depth_Estimation_for_Transparent_and_Mirror_Surfaces_ICCV_2023_paper.pdf)
 
+{{< figure src="/paper_images/ntire2023.png" >}}
 Zama Ramirez, Pierluigi, Tosi, Fabio, Di Stefano, Luigi, Timofte, Radu, Costanzino, Alex, Poggi, Matteo, Salti, Samuele, Mattoccia, Stefano.\
 _NTIRE 2023 Challenge on HR Depth from Images of Specular and Transparent Surfaces._ \
 __NTIRE 2023 - CVPRW 2023__ \
