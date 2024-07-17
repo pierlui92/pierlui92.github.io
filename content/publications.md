@@ -25,6 +25,7 @@ ___TPAMI 2024___ \
 __Pierluigi Zama Ramirez__, Fabio Tosi, Luigi Di Stefano, Radu Timofte, Alex Costanzino, Matteo Poggi et al.
 _NTIRE 2024 Challenge on HR Depth From Images of Specular and Transparent Surfaces_ \
 ___CVPRW 2024___
+[[Paper]](https://openaccess.thecvf.com/content/CVPR2024W/NTIRE/papers/Ramirez_NTIRE_2024_Challenge_on_HR_Depth_from_Images_of_Specular_CVPRW_2024_paper.pdf)
 
 {{< figure src="/paper_images/ttt.png" >}}
 Alex Costanzino, __Pierluigi Zama Ramirez__, Mirko Del Moro, Agostino Aiezzo, Giuseppe Lisanti, and Luigi Di Stefano. \
