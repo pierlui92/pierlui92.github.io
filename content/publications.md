@@ -1,6 +1,14 @@
 # Publications & Conferences
 
 ## 2024
+
+{{< figure src="/paper_images/llana.png" >}}
+Andrea Amaduzzi, __Pierluigi Zama Ramirez__, Giuseppe Lisanti, Samuele Salti, Luigi Di Stefano. \
+_LLaNA: Large Language and NeRF Assistant_ \
+___NeurIPS 2024___ \
+[[Project Page]](https://andreamaduzzi.github.io/llana/)
+[[Paper]](https://arxiv.org/abs/2406.11840)
+
 {{< figure src="/paper_images/nf2vec.png" >}}
 __Pierluigi Zama Ramirez\*__, Luca De Luigi\*, Daniele Sirocchi\*, Adriano Cardace, Riccardo Spezialetti, Francesco Ballerini, Samuele Salti, and Luigi Di Stefano. (\*Equal Contribution) \
 _Deep Learning on Object-centric 3D Neural Fields_ \

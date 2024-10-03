@@ -1,8 +1,9 @@
 ## 2024
 
-* 1 paper accepted at TPAMI!
+* 1 paper accepted at NeurIPS!
+* 1 paper accepted at ECCVW!
 * 1 paper accepted at ECCV!
-* 1 paper accepted at TPAMI!
+* 2 paper accepted at TPAMI!
 * Co-organizing TRICKY 2024 Workshop at ECCV 2024!
 * 3 paper accepted at CVPRW!
 * 1 paper accepted at CVPR!
