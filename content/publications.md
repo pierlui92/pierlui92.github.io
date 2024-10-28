@@ -9,6 +9,12 @@ ___NeurIPS 2024___ \
 [[Project Page]](https://andreamaduzzi.github.io/llana/)
 [[Paper]](https://arxiv.org/abs/2406.11840)
 
+{{< figure src="/paper_images/tricky.png" >}}
+__Pierluigi Zama Ramirez__, Alex Costanzino, Fabio Tosi, Matteo Poggi, Luigi Di Stefano, Jean-Baptiste Weibel, et al. \
+_TRICKY 2024 Challenge on Monocular Depth from Images of Specular and Transparent Surfaces_ \
+___ECCVW 2024___
+
+
 {{< figure src="/paper_images/nf2vec.png" >}}
 __Pierluigi Zama Ramirez\*__, Luca De Luigi\*, Daniele Sirocchi\*, Adriano Cardace, Riccardo Spezialetti, Francesco Ballerini, Samuele Salti, and Luigi Di Stefano. (\*Equal Contribution) \
 _Deep Learning on Object-centric 3D Neural Fields_ \
