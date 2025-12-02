@@ -1,3 +1,15 @@
+## 2025
+
+* Starting the new role of Associate Professor at the Ca' Foscari University of Venice!
+* 1 paper accepted at NeurIPS!
+* Got the italian ASN in IINF-05 and INFO-01!
+* 1 paper accepted at ICCV!
+* 2 paper accepted at ICCVW!
+* 2 papers accepted at IEEE Access!
+* Co-organizing TRICKY 2025 Workshop at ICCV 2025!
+* 1 paper accepted at CVPRW!
+* Co-organizing NTIRE 2025 Workshop at CVPR 2025!
+
 ## 2024
 
 * 1 paper accepted at NeurIPS!

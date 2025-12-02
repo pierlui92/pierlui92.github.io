@@ -185,7 +185,7 @@ languageName = "English"
       # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
       title = "Pierluigi Zama Ramirez"
       # subtitle shown in home page (HTML format is supported)
-      subtitle = "Assistant Professor @ University of Bologna. Researcher in Computer Vision and Deep Learning"
+      subtitle = "Associate Professor @ Ca' Foscari University of Venice. Researcher in Computer Vision and Deep Learning"
       # whether to use typeit animation for subtitle
       typeit = false
       # whether to show social links

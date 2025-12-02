@@ -1,4 +1,50 @@
-# Publications & Conferences
+# Publications
+
+## 2025
+
+{{< figure src="/paper_images/sllana.png" >}}
+Andrea Amaduzzi, __Pierluigi Zama Ramirez__, Giuseppe Lisanti, Samuele Salti, Luigi Di Stefano \
+_Spatially-aware Weights Tokenization for NeRF-Language Models_ \
+__NeurIPS 2025__ \
+[[Project Page]](https://andreamaduzzi.github.io/spatial-llana/)
+[[Paper]](https://openreview.net/pdf?id=z9MxyboJ7R)
+
+{{< figure src="/paper_images/sim3d.png" >}}
+Alex Costanzino, __Pierluigi Zama Ramirez__, Luigi Lella, Matteo Ragaglia, Alessandro Oliva, Giuseppe Lisanti, Luigi Di Stefano \
+_SiM3D: Single-instance Multiview Multimodal and Multisetup 3D Anomaly Detection Benchmark_ \
+__ICCV 2025__ \
+[[Project Page]](https://alex-costanzino.github.io/SiM3D/)
+[[Paper]](https://openaccess.thecvf.com/content/ICCV2025/papers/Costanzino_SiM3D_Single-instance_Multiview_Multimodal_and_Multisetup_3D_Anomaly_Detection_Benchmark_ICCV_2025_paper.pdf)
+
+{{< figure src="/paper_images/mmsam.png" >}}
+Iacopo Curti, __Pierluigi Zama Ramirez__, Alioscia Petrelli, Luigi Di Stefano \
+_Multimodal SAM-Adapter for Semantic Segmentation_ \
+__IEEE Access__ \
+[[Project Page]](https://github.com/iacopo97/Multimodal-SAM-Adapter)
+[[Paper]](https://ieeexplore.ieee.org/abstract/document/11162503)
+
+{{< figure src="/paper_images/learning2be.png" >}}
+Alex Costanzino, __Pierluigi Zama Ramirez__, Giuseppe Lisanti, Luigi Di Stefano \
+_Learning to Be a Transformer to Pinpoint Anomalies_ \
+__IEEE Access__ \
+[[Paper]](https://ieeexplore.ieee.org/abstract/document/11048772)
+
+__Pierluigi Zama Ramirez__, Alex Costanzino, Fabio Tosi, Matteo Poggi, Luigi Di Stefano, Jean-Baptiste Weibel, Doris Antensteiner, Markus Vincze, Benjamin Busam, Guangyao Zhai, Weihang Li, Junwen Huang, Hyunjun Jung, Mykola Lavreniuk, Pihai Sun, Yijun Luo, Hongtao Wang, Manying Gao, Kui Jiang, Junjun Jiang \
+_TRICKY 2025 Challenge on Monocular Depth from Images of Specular and Transparent Surfaces_ \
+___ICCVW 2025___ \
+[[Paper]](https://openaccess.thecvf.com/content/ICCV2025W/TRICKY/papers/Ramirez_TRICKY_2025_Challenge_on_Monocular_Depth_from_Images_of_Specular_ICCVW_2025_paper.pdf)
+
+Weihang Li, Junwen Huang, HyunJun Jung, Guangyao Zhai, __Pierluigi Zama Ramirez__, et al. \
+_TRICKY 2025 HouseCat6D Object Pose Estimation Challenge with Specular and Transparent Surfaces_ \
+___ICCVW 2025___ \
+[[Paper]](https://openaccess.thecvf.com/content/ICCV2025W/TRICKY/papers/Li_TRICKY_2025_HouseCat6D_Object_Pose_Estimation_Challenge_with_Specular_and_ICCVW_2025_paper.pdf)
+
+
+__Pierluigi Zama Ramirez__, Fabio Tosi, Luigi Di Stefano, Radu Timofte, Alex Costanzino, Matteo Poggi et al. \
+_NTIRE 2025 Challenge on HR Depth From Images of Specular and Transparent Surfaces_ \
+___CVPRW 2025___ \
+[[Paper]](https://openaccess.thecvf.com/content/CVPR2025W/NTIRE/papers/Ramirez_NTIRE_2025_Challenge_on_HR_Depth_from_Images_of_Specular_CVPRW_2025_paper.pdf)
+
 
 ## 2024
 
