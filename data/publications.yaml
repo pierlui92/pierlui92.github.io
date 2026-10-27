@@ -1,0 +1,1117 @@
+# Publications list rendered by layouts/shortcodes/publications.html
+# To add a paper, copy an entry and edit it. Fields:
+#   title, authors (name, me: true for yourself, equal: true for equal contribution), etal (true if the list is truncated)
+#   venue (short badge, e.g. "CVPR 2026"), venue_full (used for BibTeX), year
+#   type: conference | journal | workshop | preprint | other
+#   topics: depth3d | segmentation | adaptation | anomaly | nnasdata | inr | highres
+#   notes (optional badges, e.g. Oral, Spotlight), image (file in static/paper_images), links (name + url)
+sections:
+- title: '2027'
+  papers:
+  - title: "CoordFormer: Give Me Any Coordinates and I Will Give You Labels"
+    authors:
+    - name: Iacopo Curti
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Alioscia Petrelli
+    - name: Luigi Di Stefano
+    venue: WACV 2027
+    venue_full: IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
+    type: conference
+    topics:
+    - segmentation
+    - highres
+    image: coordformer.webp
+    links:
+    - name: Project Page
+      url: "https://iacopo97.github.io/CoordFormer/"
+    - name: Paper
+      url: "https://arxiv.org/abs/2609.08660"
+    year: 2027
+    key: curti2027coordformer
+  - title: Benchmarking Learnable Representations for Gigapixel Image Compression and Super-Resolution
+    authors:
+    - name: Matteo Fusconi
+    - name: Alex Costanzino
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Luigi Di Stefano
+    venue: WACV 2027
+    venue_full: IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
+    type: conference
+    topics:
+    - inr
+    - highres
+    image: gigabench.webp
+    links:
+    - name: Project Page
+      url: "https://matteofusconi.github.io/GigaBench/"
+    - name: Paper
+      url: "https://arxiv.org/abs/2610.31644"
+    year: 2027
+    key: fusconi2027benchmarking
+- title: '2026'
+  papers:
+  - title: Spectral Gating via Damped Oscillations for Adaptive Implicit Neural Representations
+    authors:
+    - name: Alex Costanzino
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Giuseppe Lisanti
+    - name: Luigi Di Stefano
+    venue: ECCV 2026
+    venue_full: European Conference on Computer Vision (ECCV)
+    type: conference
+    topics:
+    - inr
+    notes:
+    - Spotlight
+    image: fdho.webp
+    links:
+    - name: Project Page
+      url: "https://alex-costanzino.github.io/fdho/"
+    - name: Paper
+      url: "https://arxiv.org/abs/2606.23129"
+    - name: Code
+      url: "https://github.com/alex-costanzino/fdho-release"
+    year: 2026
+    key: costanzino2026spectral
+  - title: "Modulate-and-Map: Crossmodal Feature Mapping with Cross-View Modulation for 3D Anomaly Detection"
+    authors:
+    - name: Alex Costanzino
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Giuseppe Lisanti
+    - name: Luigi Di Stefano
+    venue: CVPR Findings 2026
+    venue_full: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Findings
+    type: conference
+    topics:
+    - anomaly
+    image: modmap.webp
+    links:
+    - name: Project Page
+      url: "https://alex-costanzino.github.io/modmap/"
+    - name: Paper
+      url: "https://arxiv.org/abs/2604.02328"
+    - name: Code
+      url: "https://github.com/alex-costanzino/modmap-code"
+    year: 2026
+    key: costanzino2026modulateandmap
+  - title: NTIRE 2026 Challenge on High-Resolution Depth of non-Lambertian Surfaces
+    authors:
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Fabio Tosi
+    - name: Luigi Di Stefano
+    - name: Radu Timofte
+    - name: Alex Costanzino
+    - name: Matteo Poggi
+    etal: true
+    venue: CVPRW 2026
+    venue_full: IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)
+    type: workshop
+    topics:
+    - depth3d
+    - highres
+    image: ntire2026.webp
+    links:
+    - name: Paper
+      url: "https://openaccess.thecvf.com/content/CVPR2026W/NTIRE/papers/Ramirez_NTIRE_2026_Challenge_on_High-Resolution_Depth_of_non-Lambertian_Surfaces_CVPRW_2026_paper.pdf"
+    year: 2026
+    key: zamaramirez2026ntire
+  - title: Weight Space Representation Learning on Diverse NeRF Architectures
+    authors:
+    - name: Francesco Ballerini
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Luigi Di Stefano
+    - name: Samuele Salti
+    venue: ICLR 2026
+    venue_full: International Conference on Learning Representations (ICLR)
+    type: conference
+    topics:
+    - nnasdata
+    - inr
+    image: gmnerf.webp
+    links:
+    - name: Project Page
+      url: "https://cvlab-unibo.github.io/gmnerf/"
+    - name: Paper
+      url: "https://openreview.net/forum?id=u90rHXaBve"
+    - name: Code
+      url: "https://github.com/CVLAB-Unibo/gmnerf"
+    year: 2026
+    key: ballerini2026weight
+- title: '2025'
+  papers:
+  - title: Spatially-aware Weights Tokenization for NeRF-Language Models
+    authors:
+    - name: Andrea Amaduzzi
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Giuseppe Lisanti
+    - name: Samuele Salti
+    - name: Luigi Di Stefano
+    venue: NeurIPS 2025
+    venue_full: Advances in Neural Information Processing Systems (NeurIPS)
+    type: conference
+    topics:
+    - nnasdata
+    - inr
+    image: sllana.webp
+    links:
+    - name: Project Page
+      url: "https://andreamaduzzi.github.io/spatial-llana/"
+    - name: Paper
+      url: "https://openreview.net/pdf?id=z9MxyboJ7R"
+    year: 2025
+    key: amaduzzi2025spatiallyaware
+  - title: "SiM3D: Single-instance Multiview Multimodal and Multisetup 3D Anomaly Detection Benchmark"
+    authors:
+    - name: Alex Costanzino
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Luigi Lella
+    - name: Matteo Ragaglia
+    - name: Alessandro Oliva
+    - name: Giuseppe Lisanti
+    - name: Luigi Di Stefano
+    venue: ICCV 2025
+    venue_full: IEEE/CVF International Conference on Computer Vision (ICCV)
+    type: conference
+    topics:
+    - anomaly
+    - highres
+    image: sim3d.webp
+    links:
+    - name: Project Page
+      url: "https://alex-costanzino.github.io/SiM3D/"
+    - name: Paper
+      url: "https://openaccess.thecvf.com/content/ICCV2025/papers/Costanzino_SiM3D_Single-instance_Multiview_Multimodal_and_Multisetup_3D_Anomaly_Detection_Benchmark_ICCV_2025_paper.pdf"
+    year: 2025
+    key: costanzino2025simd
+  - title: Multimodal SAM-Adapter for Semantic Segmentation
+    authors:
+    - name: Iacopo Curti
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Alioscia Petrelli
+    - name: Luigi Di Stefano
+    venue: IEEE Access 2025
+    venue_full: IEEE Access
+    type: journal
+    topics:
+    - segmentation
+    image: mmsam.webp
+    links:
+    - name: Project Page
+      url: "https://github.com/iacopo97/Multimodal-SAM-Adapter"
+    - name: Paper
+      url: "https://ieeexplore.ieee.org/abstract/document/11162503"
+    year: 2025
+    key: curti2025multimodal
+  - title: Learning to Be a Transformer to Pinpoint Anomalies
+    authors:
+    - name: Alex Costanzino
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Giuseppe Lisanti
+    - name: Luigi Di Stefano
+    venue: IEEE Access 2025
+    venue_full: IEEE Access
+    type: journal
+    topics:
+    - anomaly
+    - highres
+    image: learning2be.webp
+    links:
+    - name: Paper
+      url: "https://ieeexplore.ieee.org/abstract/document/11048772"
+    year: 2025
+    key: costanzino2025learning
+  - title: TRICKY 2025 Challenge on Monocular Depth from Images of Specular and Transparent Surfaces
+    authors:
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Alex Costanzino
+    - name: Fabio Tosi
+    - name: Matteo Poggi
+    - name: Luigi Di Stefano
+    - name: Jean-Baptiste Weibel
+    - name: Doris Antensteiner
+    - name: Markus Vincze
+    - name: Benjamin Busam
+    - name: Guangyao Zhai
+    - name: Weihang Li
+    - name: Junwen Huang
+    - name: Hyunjun Jung
+    - name: Mykola Lavreniuk
+    - name: Pihai Sun
+    - name: Yijun Luo
+    - name: Hongtao Wang
+    - name: Manying Gao
+    - name: Kui Jiang
+    - name: Junjun Jiang
+    venue: ICCVW 2025
+    venue_full: IEEE/CVF International Conference on Computer Vision Workshops (ICCVW)
+    type: workshop
+    topics:
+    - depth3d
+    image: tricky2025_depth.webp
+    links:
+    - name: Paper
+      url: "https://openaccess.thecvf.com/content/ICCV2025W/TRICKY/papers/Ramirez_TRICKY_2025_Challenge_on_Monocular_Depth_from_Images_of_Specular_ICCVW_2025_paper.pdf"
+    year: 2025
+    key: zamaramirez2025tricky
+  - title: TRICKY 2025 HouseCat6D Object Pose Estimation Challenge with Specular and Transparent Surfaces
+    authors:
+    - name: Weihang Li
+    - name: Junwen Huang
+    - name: HyunJun Jung
+    - name: Guangyao Zhai
+    - name: Pierluigi Zama Ramirez
+      me: true
+    etal: true
+    venue: ICCVW 2025
+    venue_full: IEEE/CVF International Conference on Computer Vision Workshops (ICCVW)
+    type: workshop
+    topics:
+    - depth3d
+    image: tricky2025_pose.webp
+    links:
+    - name: Paper
+      url: "https://openaccess.thecvf.com/content/ICCV2025W/TRICKY/papers/Li_TRICKY_2025_HouseCat6D_Object_Pose_Estimation_Challenge_with_Specular_and_ICCVW_2025_paper.pdf"
+    year: 2025
+    key: li2025tricky
+  - title: NTIRE 2025 Challenge on HR Depth From Images of Specular and Transparent Surfaces
+    authors:
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Fabio Tosi
+    - name: Luigi Di Stefano
+    - name: Radu Timofte
+    - name: Alex Costanzino
+    - name: Matteo Poggi
+    etal: true
+    venue: CVPRW 2025
+    venue_full: IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)
+    type: workshop
+    topics:
+    - depth3d
+    - highres
+    image: ntire2025.webp
+    links:
+    - name: Paper
+      url: "https://openaccess.thecvf.com/content/CVPR2025W/NTIRE/papers/Ramirez_NTIRE_2025_Challenge_on_HR_Depth_from_Images_of_Specular_CVPRW_2025_paper.pdf"
+    year: 2025
+    key: zamaramirez2025ntire
+- title: '2024'
+  papers:
+  - title: "LLaNA: Large Language and NeRF Assistant"
+    authors:
+    - name: Andrea Amaduzzi
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Giuseppe Lisanti
+    - name: Samuele Salti
+    - name: Luigi Di Stefano
+    venue: NeurIPS 2024
+    venue_full: Advances in Neural Information Processing Systems (NeurIPS)
+    type: conference
+    topics:
+    - nnasdata
+    - inr
+    image: llana.webp
+    links:
+    - name: Project Page
+      url: "https://andreamaduzzi.github.io/llana/"
+    - name: Paper
+      url: "https://arxiv.org/abs/2406.11840"
+    year: 2024
+    key: amaduzzi2024llana
+  - title: TRICKY 2024 Challenge on Monocular Depth from Images of Specular and Transparent Surfaces
+    authors:
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Alex Costanzino
+    - name: Fabio Tosi
+    - name: Matteo Poggi
+    - name: Luigi Di Stefano
+    - name: Jean-Baptiste Weibel
+    etal: true
+    venue: ECCVW 2024
+    venue_full: European Conference on Computer Vision Workshops (ECCVW)
+    type: workshop
+    topics:
+    - depth3d
+    image: tricky.webp
+    year: 2024
+    key: zamaramirez2024tricky
+  - title: Deep Learning on Object-centric 3D Neural Fields
+    authors:
+    - name: Pierluigi Zama Ramirez
+      me: true
+      equal: true
+    - name: Luca De Luigi
+      equal: true
+    - name: Daniele Sirocchi
+      equal: true
+    - name: Adriano Cardace
+    - name: Riccardo Spezialetti
+    - name: Francesco Ballerini
+    - name: Samuele Salti
+    - name: Luigi Di Stefano
+    venue: TPAMI 2024
+    venue_full: IEEE Transactions on Pattern Analysis and Machine Intelligence
+    type: journal
+    topics:
+    - nnasdata
+    - inr
+    image: nf2vec.webp
+    links:
+    - name: Project Page
+      url: "https://cvlab-unibo.github.io/nf2vec/"
+    - name: Paper
+      url: "https://arxiv.org/abs/2312.13277"
+    year: 2024
+    key: zamaramirez2024deep
+  - title: "Diffusion Models for Monocular Depth Estimation: Overcoming Challenging Conditions"
+    authors:
+    - name: Fabio Tosi
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Matteo Poggi
+    venue: ECCV 2024
+    venue_full: European Conference on Computer Vision (ECCV)
+    type: conference
+    topics:
+    - depth3d
+    image: depth4robust.webp
+    links:
+    - name: Project Page
+      url: "https://diffusion4robustdepth.github.io/"
+    year: 2024
+    key: tosi2024diffusion
+  - title: Neural Disparity Refinement
+    authors:
+    - name: Fabio Tosi
+    - name: Filippo Aleotti
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Matteo Poggi
+    - name: Samuele Salti
+    - name: Stefano Mattoccia
+    - name: Luigi Di Stefano
+    venue: TPAMI 2024
+    venue_full: IEEE Transactions on Pattern Analysis and Machine Intelligence
+    type: journal
+    topics:
+    - depth3d
+    - highres
+    image: ndr_journal.webp
+    links:
+    - name: Paper
+      url: "https://ieeexplore.ieee.org/document/10552115"
+    year: 2024
+    key: tosi2024neural
+  - title: NTIRE 2024 Challenge on HR Depth From Images of Specular and Transparent Surfaces
+    authors:
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Fabio Tosi
+    - name: Luigi Di Stefano
+    - name: Radu Timofte
+    - name: Alex Costanzino
+    - name: Matteo Poggi
+    etal: true
+    venue: CVPRW 2024
+    venue_full: IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)
+    type: workshop
+    topics:
+    - depth3d
+    - highres
+    image: ntire2024.webp
+    links:
+    - name: Paper
+      url: "https://openaccess.thecvf.com/content/CVPR2024W/NTIRE/papers/Ramirez_NTIRE_2024_Challenge_on_HR_Depth_from_Images_of_Specular_CVPRW_2024_paper.pdf"
+    year: 2024
+    key: zamaramirez2024ntire
+  - title: Test Time Training for Industrial Anomaly Segmentation
+    authors:
+    - name: Alex Costanzino
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Mirko Del Moro
+    - name: Agostino Aiezzo
+    - name: Giuseppe Lisanti
+    - name: Luigi Di Stefano
+    venue: CVPRW 2024
+    venue_full: IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)
+    type: workshop
+    topics:
+    - anomaly
+    image: ttt.webp
+    links:
+    - name: Paper
+      url: "https://arxiv.org/abs/2404.03743"
+    year: 2024
+    key: costanzino2024test
+  - title: Connecting NeRFs, Images, and Text
+    authors:
+    - name: Francesco Ballerini
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Roberto Mirabella
+    - name: Samuele Salti
+    - name: Luigi Di Stefano
+    venue: CVPRW 2024
+    venue_full: IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)
+    type: workshop
+    topics:
+    - nnasdata
+    - inr
+    image: nerf2clip.webp
+    links:
+    - name: Project Page
+      url: "https://cvlab-unibo.github.io/clip2nerf/"
+    - name: Paper
+      url: "https://arxiv.org/abs/2404.07993"
+    year: 2024
+    key: ballerini2024connecting
+  - title: Multimodal Industrial Anomaly Detection by Crossmodal Feature Mapping
+    authors:
+    - name: Alex Costanzino
+      equal: true
+    - name: Pierluigi Zama Ramirez
+      me: true
+      equal: true
+    - name: Giuseppe Lisanti
+    - name: Luigi Di Stefano
+    venue: CVPR 2024
+    venue_full: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+    type: conference
+    topics:
+    - anomaly
+    image: cfm.webp
+    links:
+    - name: Project Page
+      url: "https://cvlab-unibo.github.io/CrossmodalFeatureMapping/"
+    - name: Paper
+      url: "https://arxiv.org/pdf/2312.04521.pdf"
+    year: 2024
+    key: costanzino2024multimodal
+  - title: Neural Processing of Tri-Plane Hybrid Neural Fields
+    authors:
+    - name: Adriano Cardace
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Francesco Ballerini
+    - name: Allan Zhou
+    - name: Samuele Salti
+    - name: Luigi Di Stefano
+    venue: ICLR 2024
+    venue_full: International Conference on Learning Representations (ICLR)
+    type: conference
+    topics:
+    - nnasdata
+    - inr
+    image: triplane.webp
+    links:
+    - name: Project Page
+      url: "https://github.com/CVLAB-Unibo/triplane_processing"
+    - name: Paper
+      url: "https://openreview.net/pdf?id=zRkM6UcA22"
+    year: 2024
+    key: cardace2024neural
+- title: '2023'
+  papers:
+  - title: "Booster: a Benchmark for Depth from Images of Specular and Transparent Surfaces"
+    authors:
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Alex Costanzino
+    - name: Fabio Tosi
+    - name: Matteo Poggi
+    - name: Samuele Salti
+    - name: Stefano Mattoccia
+    - name: Luigi Di Stefano
+    venue: TPAMI 2023
+    venue_full: IEEE Transactions on Pattern Analysis and Machine Intelligence
+    type: journal
+    topics:
+    - depth3d
+    - highres
+    image: booster2.webp
+    links:
+    - name: Project Page
+      url: "https://cvlab-unibo.github.io/booster-web/"
+    - name: Paper
+      url: "https://doi.org/10.1109/TPAMI.2023.3323858"
+    year: 2023
+    key: zamaramirez2023booster
+  - title: Boosting Multi-Modal Unsupervised Domain Adaptation for LiDAR Semantic Segmentation by Self-Supervised Depth Completion
+    authors:
+    - name: Adriano Cardace
+    - name: Andrea Conti
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Riccardo Spezialetti
+    - name: Samuele Salti
+    - name: Luigi Di Stefano
+    venue: IEEE Access 2023
+    venue_full: IEEE Access
+    type: journal
+    topics:
+    - segmentation
+    - adaptation
+    image: cts.webp
+    links:
+    - name: Project Page
+      url: "https://cvlab-unibo.github.io/cts-web/"
+    - name: Paper
+      url: "https://doi.org/10.1109/ACCESS.2023.3304542"
+    year: 2023
+    key: cardace2023boosting
+  - title: Learning Depth Estimation for Transparent and Mirror Surfaces
+    authors:
+    - name: Alex Costanzino
+      equal: true
+    - name: Pierluigi Zama Ramirez
+      me: true
+      equal: true
+    - name: Matteo Poggi
+      equal: true
+    - name: Fabio Tosi
+    - name: Stefano Mattoccia
+    - name: Luigi Di Stefano
+    venue: ICCV 2023
+    venue_full: IEEE/CVF International Conference on Computer Vision (ICCV)
+    type: conference
+    topics:
+    - depth3d
+    image: depth4tom.webp
+    links:
+    - name: Project Page
+      url: "https://cvlab-unibo.github.io/Depth4ToM/"
+    - name: Paper
+      url: "https://openaccess.thecvf.com/content/ICCV2023/papers/Costanzino_Learning_Depth_Estimation_for_Transparent_and_Mirror_Surfaces_ICCV_2023_paper.pdf"
+    year: 2023
+    key: costanzino2023learning
+  - title: NTIRE 2023 Challenge on HR Depth from Images of Specular and Transparent Surfaces
+    authors:
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Fabio Tosi
+    - name: Luigi Di Stefano
+    - name: Radu Timofte
+    - name: Alex Costanzino
+    - name: Matteo Poggi
+    - name: Samuele Salti
+    - name: Stefano Mattoccia
+    venue: CVPRW 2023
+    venue_full: IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)
+    type: workshop
+    topics:
+    - depth3d
+    - highres
+    image: ntire2023.webp
+    links:
+    - name: Paper
+      url: "https://openaccess.thecvf.com/content/CVPR2023W/NTIRE/papers/Ramirez_NTIRE_2023_Challenge_on_HR_Depth_From_Images_of_Specular_CVPRW_2023_paper.pdf"
+    year: 2023
+    key: zamaramirez2023ntire
+  - title: Exploiting the Complementarity of 2D and 3D Networks to Address Domain-Shift in 3D Semantic Segmentation
+    authors:
+    - name: Adriano Cardace
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Samuele Salti
+    - name: Luigi Di Stefano
+    venue: CVPRW 2023
+    venue_full: IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)
+    type: workshop
+    topics:
+    - segmentation
+    - adaptation
+    image: complementary2D3D.webp
+    links:
+    - name: Paper
+      url: "https://arxiv.org/pdf/2304.02991.pdf"
+    - name: Code
+      url: "https://github.com/CVLAB-Unibo/MM2D3D"
+    year: 2023
+    key: cardace2023exploiting
+  - title: Deep Learning on Implicit Neural Representations of Shapes
+    authors:
+    - name: Luca De Luigi
+      equal: true
+    - name: Adriano Cardace
+      equal: true
+    - name: Riccardo Spezialetti
+      equal: true
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Samuele Salti
+    - name: Luigi Di Stefano
+    venue: ICLR 2023
+    venue_full: International Conference on Learning Representations (ICLR)
+    type: conference
+    topics:
+    - nnasdata
+    - inr
+    image: inr2vec.webp
+    links:
+    - name: Project Page
+      url: "https://cvlab-unibo.github.io/inr2vec/"
+    - name: Paper
+      url: "https://arxiv.org/abs/2302.05438"
+    year: 2023
+    key: deluigi2023deep
+  - title: Learning Good Features to Transfer Across Tasks and Domains
+    authors:
+    - name: Pierluigi Zama Ramirez
+      me: true
+      equal: true
+    - name: Adriano Cardace
+      equal: true
+    - name: Luca De Luigi
+      equal: true
+    - name: Alessio Tonioni
+    - name: Samuele Salti
+    - name: Luigi Di Stefano
+    venue: TPAMI 2023
+    venue_full: IEEE Transactions on Pattern Analysis and Machine Intelligence
+    type: journal
+    topics:
+    - adaptation
+    - depth3d
+    - segmentation
+    image: atdt2.webp
+    links:
+    - name: Paper
+      url: "https://arxiv.org/abs/2301.11310"
+    year: 2023
+    key: zamaramirez2023learning
+  - title: Self-Distillation for Unsupervised 3D Domain Adaptation
+    authors:
+    - name: Adriano Cardace
+    - name: Riccardo Spezialetti
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Samuele Salti
+    - name: Luigi Di Stefano
+    venue: WACV 2023
+    venue_full: IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
+    type: conference
+    topics:
+    - adaptation
+    - depth3d
+    image: selfdistillation.webp
+    links:
+    - name: Project Page
+      url: "https://cvlab-unibo.github.io/FeatureDistillation/"
+    - name: Paper
+      url: "https://arxiv.org/abs/2210.08226"
+    year: 2023
+    key: cardace2023selfdistillation
+- title: '2022'
+  papers:
+  - title: Cross-Spectral Neural Radiance Fields
+    authors:
+    - name: Matteo Poggi
+      equal: true
+    - name: Pierluigi Zama Ramirez
+      me: true
+      equal: true
+    - name: Fabio Tosi
+      equal: true
+    - name: Samuele Salti
+    - name: Stefano Mattoccia
+    - name: Luigi Di Stefano
+    venue: 3DV 2022
+    venue_full: International Conference on 3D Vision (3DV)
+    type: conference
+    topics:
+    - inr
+    - depth3d
+    image: crossspectralnerf.webp
+    links:
+    - name: Project Page
+      url: "https://cvlab-unibo.github.io/xnerf-web/"
+    - name: Paper
+      url: "https://arxiv.org/pdf/2209.00648.pdf"
+    year: 2022
+    key: poggi2022crossspectral
+  - title: "Open Challenges in Deep Stereo: the Booster Dataset"
+    authors:
+    - name: Pierluigi Zama Ramirez
+      me: true
+      equal: true
+    - name: Fabio Tosi
+      equal: true
+    - name: Matteo Poggi
+      equal: true
+    - name: Samuele Salti
+    - name: Stefano Mattoccia
+    - name: Luigi Di Stefano
+    venue: CVPR 2022
+    venue_full: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+    type: conference
+    topics:
+    - depth3d
+    - highres
+    image: booster.webp
+    links:
+    - name: Project Page
+      url: "https://cvlab-unibo.github.io/booster-web/"
+    - name: Paper
+      url: "https://arxiv.org/abs/2206.04671"
+    year: 2022
+    key: zamaramirez2022open
+  - title: "RGB-Multispectral Matching: Dataset, Learning Methodology, Evaluation"
+    authors:
+    - name: Fabio Tosi
+      equal: true
+    - name: Pierluigi Zama Ramirez
+      me: true
+      equal: true
+    - name: Matteo Poggi
+      equal: true
+    - name: Samuele Salti
+    - name: Stefano Mattoccia
+    - name: Luigi Di Stefano
+    venue: CVPR 2022
+    venue_full: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+    type: conference
+    topics:
+    - depth3d
+    image: rgbms.webp
+    links:
+    - name: Project Page
+      url: "https://cvlab-unibo.github.io/rgb-ms-web/"
+    - name: Paper
+      url: "https://arxiv.org/abs/2206.07047"
+    year: 2022
+    key: tosi2022rgbmultispectral
+  - title: Plugging Self-Supervised Monocular Depth into Unsupervised Domain Adaptation for Semantic Segmentation
+    authors:
+    - name: Adriano Cardace
+    - name: Luca De Luigi
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Samuele Salti
+    - name: Luigi Di Stefano
+    venue: WACV 2022
+    venue_full: IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
+    type: conference
+    topics:
+    - segmentation
+    - adaptation
+    image: plugging.webp
+    links:
+    - name: Project Page
+      url: "https://github.com/CVLAB-Unibo/d4-dbst"
+    - name: Paper
+      url: "https://arxiv.org/pdf/2110.06685.pdf"
+    year: 2022
+    key: cardace2022plugging
+  - title: Shallow Features Guide Unsupervised Domain Adaptation for Semantic Segmentation at Class Boundaries
+    authors:
+    - name: Adriano Cardace
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Samuele Salti
+    - name: Luigi Di Stefano
+    venue: WACV 2022
+    venue_full: IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
+    type: conference
+    topics:
+    - segmentation
+    - adaptation
+    image: shallow.webp
+    links:
+    - name: Paper
+      url: "https://arxiv.org/abs/2110.02833"
+    year: 2022
+    key: cardace2022shallow
+- title: '2021'
+  papers:
+  - title: "RefRec: Pseudo-labels Refinement via Shape Reconstruction for Unsupervised 3D Domain Adaptation"
+    authors:
+    - name: Adriano Cardace
+    - name: Riccardo Spezialetti
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Samuele Salti
+    - name: Luigi Di Stefano
+    venue: 3DV 2021
+    venue_full: International Conference on 3D Vision (3DV)
+    type: conference
+    topics:
+    - adaptation
+    - depth3d
+    notes:
+    - Oral
+    image: refrec.webp
+    links:
+    - name: Project Page
+      url: "https://github.com/CVLAB-Unibo/RefRec"
+    - name: Paper
+      url: "https://arxiv.org/pdf/2110.11036.pdf"
+    year: 2021
+    key: cardace2021refrec
+  - title: Neural Disparity Refinement for Arbitrary Resolution Stereo
+    authors:
+    - name: Filippo Aleotti
+      equal: true
+    - name: Fabio Tosi
+      equal: true
+    - name: Pierluigi Zama Ramirez
+      me: true
+      equal: true
+    - name: Matteo Poggi
+    - name: Samuele Salti
+    - name: Stefano Mattoccia
+    - name: Luigi Di Stefano
+    venue: 3DV 2021
+    venue_full: International Conference on 3D Vision (3DV)
+    type: conference
+    topics:
+    - depth3d
+    - highres
+    notes:
+    - Oral
+    - Best Paper Honorable Mention
+    image: ndr.webp
+    links:
+    - name: Project Page
+      url: "https://cvlab-unibo.github.io/neural-disparity-refinement-web"
+    - name: Paper
+      url: "https://arxiv.org/abs/2110.15367"
+    year: 2021
+    key: aleotti2021neural
+  - title: "Beyond the baseline: 3D reconstruction of tiny objects with Single camera Stereo Robot"
+    authors:
+    - name: Daniele De Gregorio
+    - name: Matteo Poggi
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Gianluca Palli
+    - name: Stefano Mattoccia
+    - name: Luigi Di Stefano
+    venue: IEEE Access 2021
+    venue_full: IEEE Access
+    type: journal
+    topics:
+    - depth3d
+    image: sister.webp
+    links:
+    - name: Paper
+      url: "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9524696"
+    year: 2021
+    key: degregorio2021beyond
+- title: '2020'
+  papers:
+  - title: "Shooting Labels: 3D Semantic Labeling by Virtual Reality"
+    authors:
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Claudio Paternesi
+    - name: Luca De Luigi
+    - name: Luigi Lella
+    - name: Daniele De Gregorio
+    - name: Luigi Di Stefano
+    venue: AIVR 2020
+    venue_full: IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR)
+    type: conference
+    topics:
+    - segmentation
+    - depth3d
+    notes:
+    - Oral
+    - Best Paper Finalist
+    image: shootinglabels.webp
+    links:
+    - name: Project Page
+      url: "https://cvlab-unibo.github.io/shootinglabelsweb/"
+    - name: Paper
+      url: "https://arxiv.org/abs/1910.05021"
+    year: 2020
+    key: zamaramirez2020shooting
+  - title: Distilled Semantics for Comprehensive Scene Understanding from Videos
+    authors:
+    - name: Fabio Tosi
+      equal: true
+    - name: Filippo Aleotti
+      equal: true
+    - name: Pierluigi Zama Ramirez
+      me: true
+      equal: true
+    - name: Matteo Poggi
+    - name: Samuele Salti
+    - name: Stefano Mattoccia
+    - name: Luigi Di Stefano
+    venue: CVPR 2020
+    venue_full: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+    type: conference
+    topics:
+    - depth3d
+    - segmentation
+    image: omeganet.webp
+    links:
+    - name: Project Page
+      url: "https://github.com/CVLAB-Unibo/omeganet"
+    - name: Paper
+      url: "https://arxiv.org/abs/2003.14030"
+    year: 2020
+    key: tosi2020distilled
+- title: '2019'
+  papers:
+  - title: Learning Across Tasks and Domains
+    authors:
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Alessio Tonioni
+    - name: Samuele Salti
+    - name: Luigi Di Stefano
+    venue: ICCV 2019
+    venue_full: IEEE/CVF International Conference on Computer Vision (ICCV)
+    type: conference
+    topics:
+    - adaptation
+    - depth3d
+    - segmentation
+    image: atdt.webp
+    links:
+    - name: Project Page
+      url: "https://github.com/CVLAB-Unibo/ATDT"
+    - name: Paper
+      url: "https://arxiv.org/abs/1904.04744"
+    year: 2019
+    key: zamaramirez2019learning
+  - title: Shooting Labels by Virtual Reality
+    authors:
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Claudio Paternesi
+    - name: Daniele De Gregorio
+    - name: Luigi Di Stefano
+    venue: CVPRW 2019
+    venue_full: IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)
+    type: workshop
+    topics:
+    - segmentation
+    - depth3d
+    links:
+    - name: Paper
+      url: "https://static1.squarespace.com/static/5c3f69e1cc8fedbc039ea739/t/5d01638662182d0001b6f7f6/1560372111582/9_CVPR_2019_VR.pdf"
+    year: 2019
+    key: zamaramirez2019shooting
+- title: '2018'
+  papers:
+  - title: Geometry meets semantics for semi-supervised monocular depth estimation
+    authors:
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Matteo Poggi
+    - name: Fabio Tosi
+    - name: Stefano Mattoccia
+    - name: Luigi Di Stefano
+    venue: ACCV 2018
+    venue_full: Asian Conference on Computer Vision (ACCV)
+    type: conference
+    topics:
+    - depth3d
+    - segmentation
+    links:
+    - name: Project Page
+      url: "https://github.com/CVLAB-Unibo/Semantic-Mono-Depth"
+    - name: Paper
+      url: "https://arxiv.org/pdf/1810.04093.pdf"
+    year: 2018
+    key: zamaramirez2018geometry
+  - title: Exploiting Semantics in Adversarial Training for Image-Level Domain Adaptation
+    authors:
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Alessio Tonioni
+    - name: Luigi Di Stefano
+    venue: IPAS 2018
+    venue_full: IEEE International Conference on Image Processing, Applications and Systems (IPAS)
+    type: conference
+    topics:
+    - adaptation
+    - segmentation
+    notes:
+    - Oral
+    links:
+    - name: Paper
+      url: "https://arxiv.org/pdf/1810.05852.pdf"
+    year: 2018
+    key: zamaramirez2018exploiting
+  - title: Domain Adaptation by a Semantic-Aware GAN
+    authors:
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Alessio Tonioni
+    - name: Luigi Di Stefano
+    venue: EMVF 2018
+    venue_full: European Machine Vision Association Forum (EMVF)
+    type: other
+    topics:
+    - adaptation
+    notes:
+    - Oral
+    year: 2018
+    key: zamaramirez2018domain
+  - title: Large Scale 3D Semantic Mapping
+    authors:
+    - name: Daniele De Gregorio
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Luigi Di Stefano
+    venue: EMVF 2018
+    venue_full: European Machine Vision Association Forum (EMVF)
+    type: other
+    topics:
+    - segmentation
+    - depth3d
+    notes:
+    - Oral
+    year: 2018
+    key: degregorio2018large
+  - title: A Novel Generative Model to Synthetize Realistic Training Images
+    authors:
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Alessio Tonioni
+    - name: Luigi Di Stefano
+    venue: SIAM IS 2018
+    venue_full: SIAM Conference on Imaging Science (IS)
+    type: other
+    topics:
+    - adaptation
+    links:
+    - name: Poster
+      url: "https://www.siam-is18.dm.unibo.it/uploads/store/168f206221f71e84bb90b147edd08fc7.pdf"
+    year: 2018
+    key: zamaramirez2018a
+- title: Arxiv
+  papers:
+  - title: Unsupervised Novel View Synthesis from a Single Image
+    authors:
+    - name: Pierluigi Zama Ramirez
+      me: true
+    - name: Alessio Tonioni
+    - name: Federico Tombari
+    venue: arXiv
+    venue_full: "arXiv preprint arXiv:2102.03285"
+    type: preprint
+    topics:
+    - depth3d
+    links:
+    - name: Paper
+      url: "https://arxiv.org/pdf/2102.03285.pdf"
+    year: 2021
+    key: zamaramirez2021unsupervised

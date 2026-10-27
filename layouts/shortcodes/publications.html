@@ -1,0 +1,197 @@
+{{- /* Publications list rendered from data/publications.yaml */ -}}
+{{- $data := site.Data.publications -}}
+{{- $topics := slice
+  (dict "id" "depth3d" "label" "Depth & 3D Vision")
+  (dict "id" "segmentation" "label" "Semantic Segmentation")
+  (dict "id" "adaptation" "label" "Domain Adaptation")
+  (dict "id" "anomaly" "label" "Anomaly Detection")
+  (dict "id" "nnasdata" "label" "Neural Networks as Data")
+  (dict "id" "inr" "label" "Implicit Neural Representations")
+  (dict "id" "highres" "label" "High-Resolution")
+-}}
+{{- $types := slice
+  (dict "id" "conference" "label" "Conference")
+  (dict "id" "journal" "label" "Journal")
+  (dict "id" "workshop" "label" "Workshop & Challenge")
+  (dict "id" "preprint other" "label" "Preprint & Other")
+-}}
+{{- $compound := slice "Zama Ramirez" "Di Stefano" "De Luigi" "De Gregorio" "Del Moro" -}}
+{{- $all := slice -}}
+{{- range $data.sections }}{{ range .papers }}{{ $all = $all | append . }}{{ end }}{{ end -}}
+
+<style>
+.pubs{--pub-fg:#161209;--pub-muted:#5f6368;--pub-border:#e8e8e8;--pub-card:#fff;--pub-hover:#fafafa;--pub-chip:#f3f4f6;--pub-chip-fg:#374151;--pub-accent:#2d96bd;--pub-me:#1f3d63;
+  --pub-conf:#2563eb;--pub-jour:#059669;--pub-ws:#d97706;--pub-oth:#6b7280;--pub-note:#db2777;--pub-code:#f6f8fa;margin-top:.5rem}
+body[theme=dark] .pubs{--pub-fg:#e5e5e7;--pub-muted:#a9a9b3;--pub-border:#3a3b3f;--pub-card:#2f3034;--pub-hover:#34353a;--pub-chip:#38393e;--pub-chip-fg:#d1d1d6;--pub-accent:#55bde2;--pub-me:#9cc9f5;
+  --pub-conf:#7aa7ff;--pub-jour:#4fd1a5;--pub-ws:#f6b25c;--pub-oth:#b0b4bb;--pub-note:#f472b6;--pub-code:#26272b}
+.pubs-intro{color:var(--pub-muted);margin:0 0 1rem}
+.pubs-intro a{color:var(--pub-accent)}
+.pubs-filters{display:flex;flex-direction:column;gap:.55rem;margin:0 0 1.5rem;padding:.9rem 1rem;border:1px solid var(--pub-border);border-radius:12px;background:var(--pub-card)}
+.pubs-frow{display:flex;flex-wrap:wrap;align-items:center;gap:.4rem}
+.pubs-flabel{font-size:.78rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--pub-muted);min-width:3.6rem}
+.pubs button.pub-chip{font:inherit;font-size:.82rem;line-height:1.2;border:1px solid transparent;background:var(--pub-chip);color:var(--pub-chip-fg);padding:.32rem .7rem;border-radius:999px;cursor:pointer;transition:background .15s,color .15s,border-color .15s}
+.pubs button.pub-chip:hover{border-color:var(--pub-accent)}
+.pubs button.pub-chip[aria-pressed=true]{background:var(--pub-accent);color:#fff}
+body[theme=dark] .pubs button.pub-chip[aria-pressed=true]{color:#1b1c1f}
+.pubs button.pub-chip .pub-n{opacity:.65;margin-left:.3rem;font-size:.75rem}
+.pubs-status{font-size:.85rem;color:var(--pub-muted);margin:-.8rem 0 1rem}
+.pubs h2.pub-year{display:flex;align-items:baseline;gap:.6rem;margin:1.8rem 0 .8rem;padding-bottom:.35rem;border-bottom:1px solid var(--pub-border);font-size:1.45rem}
+.pubs h2.pub-year .pub-ycount{font-size:.8rem;font-weight:500;color:var(--pub-muted)}
+.pub-card{display:grid;grid-template-columns:260px 1fr;gap:1.1rem;align-items:start;padding:.9rem;margin:0 -.9rem .4rem;border-radius:12px;transition:background .15s}
+.pub-card:hover{background:var(--pub-hover)}
+.pub-thumb{display:flex;align-items:center;justify-content:center;width:260px;height:136px;background:#fff;border:1px solid var(--pub-border);border-radius:10px;overflow:hidden;padding:6px;box-sizing:border-box}
+.pub-thumb img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;display:block;margin:0}
+a.pub-thumb:hover{border-color:var(--pub-accent)}
+.pub-thumb.pub-noimg{background:var(--pub-chip);color:var(--pub-muted);font-weight:700;font-size:1.05rem;letter-spacing:.03em}
+.pub-body{min-width:0}
+.pub-title{font-weight:700;font-size:1.04rem;line-height:1.35;color:var(--pub-fg);margin:0 0 .3rem}
+.pub-authors{font-size:.9rem;line-height:1.45;color:var(--pub-muted);margin:0 0 .45rem}
+.pub-authors .pub-me{color:var(--pub-me);font-weight:700}
+.pub-authors sup{font-size:.7em;margin-left:1px}
+.pub-meta{display:flex;flex-wrap:wrap;gap:.35rem;margin:0 0 .55rem}
+.pub-badge{display:inline-block;font-size:.75rem;font-weight:700;line-height:1;padding:.32rem .55rem;border-radius:6px;border:1px solid currentColor}
+.pub-badge.t-conference{color:var(--pub-conf)}.pub-badge.t-journal{color:var(--pub-jour)}.pub-badge.t-workshop{color:var(--pub-ws)}.pub-badge.t-preprint,.pub-badge.t-other{color:var(--pub-oth)}
+.pub-badge.pub-note{color:var(--pub-note)}
+.pub-badge.pub-note::before{content:"\2605\00a0"}
+.pub-links{display:flex;flex-wrap:wrap;gap:.4rem}
+.pubs a.pub-btn,.pubs button.pub-btn{font:inherit;display:inline-flex;align-items:center;gap:.35rem;font-size:.8rem;line-height:1;padding:.38rem .65rem;border:1px solid var(--pub-border);border-radius:7px;background:var(--pub-card);color:var(--pub-fg)!important;text-decoration:none;cursor:pointer;transition:border-color .15s,color .15s}
+.pubs a.pub-btn:hover,.pubs button.pub-btn:hover{border-color:var(--pub-accent);color:var(--pub-accent)!important}
+.pubs .pub-btn i{font-size:.85em;opacity:.8}
+.pub-eq{font-size:.75rem;color:var(--pub-muted);margin:.45rem 0 0}
+.pub-bib{display:none;position:relative;margin:.6rem 0 0}
+.pub-bib.open{display:block}
+.pub-bib pre{margin:0;padding:.75rem .9rem;font-size:.75rem;line-height:1.45;background:var(--pub-code);border:1px solid var(--pub-border);border-radius:8px;overflow-x:auto;white-space:pre;color:var(--pub-fg)}
+.pubs button.pub-copy{position:absolute;top:.4rem;right:.4rem;font:inherit;font-size:.72rem;padding:.25rem .5rem;border-radius:6px;border:1px solid var(--pub-border);background:var(--pub-card);color:var(--pub-fg);cursor:pointer}
+.pub-hidden{display:none!important}
+@media (max-width:680px){
+  .pub-card{grid-template-columns:1fr;gap:.7rem;margin:0 0 .6rem;padding:.6rem 0}
+  .pub-card:hover{background:none}
+  .pub-thumb{width:100%;height:auto;aspect-ratio:2.4/1}
+  .pubs-flabel{width:100%}
+}
+</style>
+
+<div class="pubs" id="pubs">
+  <p class="pubs-intro">{{ len $all }} publications. See also my <a href="https://scholar.google.com/citations?user=OAYAmKYAAAAJ" target="_blank" rel="noopener">Google Scholar</a> profile.</p>
+
+  <div class="pubs-filters" role="group" aria-label="Filter publications">
+    <div class="pubs-frow" data-group="topic">
+      <span class="pubs-flabel">Topic</span>
+      <button type="button" class="pub-chip" data-value="" aria-pressed="true">All</button>
+      {{- range $topics }}
+      {{- $id := .id }}{{ $n := 0 }}{{ range $all }}{{ if in .topics $id }}{{ $n = add $n 1 }}{{ end }}{{ end }}
+      <button type="button" class="pub-chip" data-value="{{ .id }}" aria-pressed="false">{{ .label }}<span class="pub-n">{{ $n }}</span></button>
+      {{- end }}
+    </div>
+    <div class="pubs-frow" data-group="type">
+      <span class="pubs-flabel">Type</span>
+      <button type="button" class="pub-chip" data-value="" aria-pressed="true">All</button>
+      {{- range $types }}
+      {{- $ids := split .id " " }}{{ $n := 0 }}{{ range $all }}{{ if in $ids .type }}{{ $n = add $n 1 }}{{ end }}{{ end }}
+      <button type="button" class="pub-chip" data-value="{{ .id }}" aria-pressed="false">{{ .label }}<span class="pub-n">{{ $n }}</span></button>
+      {{- end }}
+    </div>
+  </div>
+  <p class="pubs-status" aria-live="polite"></p>
+
+  {{- range $data.sections }}
+  <section class="pub-section">
+    <h2 class="pub-year">{{ .title }} <span class="pub-ycount"></span></h2>
+    {{- range .papers }}
+    {{- $p := . }}
+    {{- $hasEq := false }}{{ range .authors }}{{ if .equal }}{{ $hasEq = true }}{{ end }}{{ end }}
+    <article class="pub-card" data-topics="{{ delimit .topics " " }}" data-type="{{ .type }}">
+      {{- with .image }}
+      <a class="pub-thumb" href="/paper_images/{{ . }}" target="_blank" rel="noopener" aria-label="Open teaser of {{ $p.title }}">
+        <img src="/paper_images/thumbs/{{ . }}" alt="Teaser of {{ $p.title }}" loading="lazy" decoding="async">
+      </a>
+      {{- else }}
+      <div class="pub-thumb pub-noimg" aria-hidden="true">{{ .venue }}</div>
+      {{- end }}
+      <div class="pub-body">
+        <div class="pub-title">{{ .title }}</div>
+        <div class="pub-authors">
+          {{- range $i, $a := .authors }}{{ if $i }}, {{ end }}{{ if $a.me }}<span class="pub-me">{{ $a.name }}</span>{{ else }}{{ $a.name }}{{ end }}{{ if $a.equal }}<sup>*</sup>{{ end }}{{ end }}{{ if .etal }}, et al.{{ end -}}
+        </div>
+        <div class="pub-meta">
+          <span class="pub-badge t-{{ .type }}" title="{{ .venue_full }}">{{ .venue }}</span>
+          {{- range .notes }}<span class="pub-badge pub-note">{{ . }}</span>{{ end }}
+        </div>
+        <div class="pub-links">
+          {{- range .links }}
+          {{- $icon := "fa-solid fa-link" }}
+          {{- if eq .name "Paper" }}{{ $icon = "fa-regular fa-file-lines" }}{{ else if eq .name "Project Page" }}{{ $icon = "fa-solid fa-globe" }}{{ else if eq .name "Code" }}{{ $icon = "fa-brands fa-github" }}{{ else if eq .name "Poster" }}{{ $icon = "fa-regular fa-image" }}{{ end }}
+          <a class="pub-btn" href="{{ .url }}" target="_blank" rel="noopener"><i class="{{ $icon }}" aria-hidden="true"></i>{{ .name }}</a>
+          {{- end }}
+          {{- if in (slice "conference" "journal" "workshop" "preprint") .type }}
+          <button type="button" class="pub-btn pub-bibtoggle" aria-expanded="false"><i class="fa-solid fa-quote-right" aria-hidden="true"></i>BibTeX</button>
+          {{- end }}
+        </div>
+        {{- if $hasEq }}<p class="pub-eq">* Equal contribution</p>{{ end }}
+        {{- if in (slice "conference" "journal" "workshop" "preprint") .type }}
+        {{- $names := slice }}
+        {{- range .authors }}{{ $n := .name }}{{ range $compound }}{{ $n = replace $n . (printf "{%s}" .) }}{{ end }}{{ $names = $names | append $n }}{{ end }}
+        {{- $authorStr := delimit $names " and " }}{{ if .etal }}{{ $authorStr = printf "%s and others" $authorStr }}{{ end }}
+        {{- $entry := "inproceedings" }}{{ $field := "booktitle" }}
+        {{- if in (slice "journal" "preprint") .type }}{{ $entry = "article" }}{{ $field = "journal" }}{{ end }}
+        <div class="pub-bib">
+          <pre>@{{ $entry }}{{ "{" }}{{ .key }},
+  title     = {{ "{{" }}{{ .title }}{{ "}}" }},
+  author    = {{ "{" }}{{ $authorStr }}{{ "}" }},
+  {{ printf "%-9s" $field }} = {{ "{" }}{{ .venue_full }}{{ "}" }},
+  year      = {{ "{" }}{{ .year }}{{ "}" }}
+}</pre>
+          <button type="button" class="pub-copy">Copy</button>
+        </div>
+        {{- end }}
+      </div>
+    </article>
+    {{- end }}
+  </section>
+  {{- end }}
+</div>
+
+<script>
+(function(){
+  var root=document.getElementById('pubs'); if(!root) return;
+  var state={topic:'',type:''};
+  var cards=[].slice.call(root.querySelectorAll('.pub-card'));
+  var sections=[].slice.call(root.querySelectorAll('.pub-section'));
+  var status=root.querySelector('.pubs-status');
+  function apply(){
+    var shown=0;
+    cards.forEach(function(c){
+      var okT=!state.topic||(' '+c.dataset.topics+' ').indexOf(' '+state.topic+' ')>-1;
+      var okY=!state.type||state.type.split(' ').indexOf(c.dataset.type)>-1;
+      var ok=okT&&okY; c.classList.toggle('pub-hidden',!ok); if(ok) shown++;
+    });
+    sections.forEach(function(s){
+      var n=s.querySelectorAll('.pub-card:not(.pub-hidden)').length;
+      s.classList.toggle('pub-hidden',n===0);
+      s.querySelector('.pub-ycount').textContent=n+(n===1?' paper':' papers');
+    });
+    status.textContent=(state.topic||state.type)?('Showing '+shown+' of '+cards.length+' publications'):'';
+  }
+  root.addEventListener('click',function(e){
+    var chip=e.target.closest('button.pub-chip');
+    if(chip){
+      var row=chip.closest('.pubs-frow'); state[row.dataset.group]=chip.dataset.value;
+      row.querySelectorAll('button.pub-chip').forEach(function(b){b.setAttribute('aria-pressed',b===chip?'true':'false');});
+      apply(); return;
+    }
+    var bt=e.target.closest('button.pub-bibtoggle');
+    if(bt){
+      var bib=bt.closest('.pub-body').querySelector('.pub-bib');
+      var open=bib.classList.toggle('open'); bt.setAttribute('aria-expanded',open?'true':'false'); return;
+    }
+    var cp=e.target.closest('button.pub-copy');
+    if(cp){
+      var txt=cp.parentNode.querySelector('pre').textContent;
+      var done=function(){cp.textContent='Copied!';setTimeout(function(){cp.textContent='Copy';},1500);};
+      if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(done,function(){});}
+      else{var ta=document.createElement('textarea');ta.value=txt;document.body.appendChild(ta);ta.select();try{document.execCommand('copy');done();}catch(_){}document.body.removeChild(ta);}
+    }
+  });
+  apply();
+})();
+</script>
