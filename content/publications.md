@@ -2,14 +2,14 @@
 
 ## 2027
 
-{{< figure src="/paper_images/coordformer.png" >}}
+{{< figure src="/paper_images/coordformer.webp" >}}
 Iacopo Curti, __Pierluigi Zama Ramirez__, Alioscia Petrelli, Luigi Di Stefano \
 _CoordFormer: Give Me Any Coordinates and I Will Give You Labels_ \
 ___WACV 2027___ \
 [[Project Page]](https://iacopo97.github.io/CoordFormer/)
 [[Paper]](https://arxiv.org/abs/2609.08660)
 
-{{< figure src="/paper_images/gigabench.png" >}}
+{{< figure src="/paper_images/gigabench.webp" >}}
 Matteo Fusconi, Alex Costanzino, __Pierluigi Zama Ramirez__, Luigi Di Stefano \
 _Benchmarking Learnable Representations for Gigapixel Image Compression and Super-Resolution_ \
 ___WACV 2027___ \
@@ -18,7 +18,7 @@ ___WACV 2027___ \
 
 ## 2026
 
-{{< figure src="/paper_images/fdho.png" >}}
+{{< figure src="/paper_images/fdho.webp" >}}
 Alex Costanzino, __Pierluigi Zama Ramirez__, Giuseppe Lisanti, Luigi Di Stefano \
 _Spectral Gating via Damped Oscillations for Adaptive Implicit Neural Representations_ \
 ___ECCV 2026. Spotlight___ \
@@ -26,7 +26,7 @@ ___ECCV 2026. Spotlight___ \
 [[Paper]](https://arxiv.org/abs/2606.23129)
 [[Code]](https://github.com/alex-costanzino/fdho-release)
 
-{{< figure src="/paper_images/modmap.png" >}}
+{{< figure src="/paper_images/modmap.webp" >}}
 Alex Costanzino, __Pierluigi Zama Ramirez__, Giuseppe Lisanti, Luigi Di Stefano \
 _Modulate-and-Map: Crossmodal Feature Mapping with Cross-View Modulation for 3D Anomaly Detection_ \
 ___CVPR Findings 2026___ \
@@ -34,13 +34,13 @@ ___CVPR Findings 2026___ \
 [[Paper]](https://arxiv.org/abs/2604.02328)
 [[Code]](https://github.com/alex-costanzino/modmap-code)
 
-{{< figure src="/paper_images/ntire2026.png" >}}
+{{< figure src="/paper_images/ntire2026.webp" >}}
 __Pierluigi Zama Ramirez__, Fabio Tosi, Luigi Di Stefano, Radu Timofte, Alex Costanzino, Matteo Poggi et al. \
 _NTIRE 2026 Challenge on High-Resolution Depth of non-Lambertian Surfaces_ \
 ___CVPRW 2026___ \
 [[Paper]](https://openaccess.thecvf.com/content/CVPR2026W/NTIRE/papers/Ramirez_NTIRE_2026_Challenge_on_High-Resolution_Depth_of_non-Lambertian_Surfaces_CVPRW_2026_paper.pdf)
 
-{{< figure src="/paper_images/gmnerf.png" >}}
+{{< figure src="/paper_images/gmnerf.webp" >}}
 Francesco Ballerini, __Pierluigi Zama Ramirez__, Luigi Di Stefano, Samuele Salti \
 _Weight Space Representation Learning on Diverse NeRF Architectures_ \
 ___ICLR 2026___ \
@@ -50,46 +50,46 @@ ___ICLR 2026___ \
 
 ## 2025
 
-{{< figure src="/paper_images/sllana.png" >}}
+{{< figure src="/paper_images/sllana.webp" >}}
 Andrea Amaduzzi, __Pierluigi Zama Ramirez__, Giuseppe Lisanti, Samuele Salti, Luigi Di Stefano \
 _Spatially-aware Weights Tokenization for NeRF-Language Models_ \
 __NeurIPS 2025__ \
 [[Project Page]](https://andreamaduzzi.github.io/spatial-llana/)
 [[Paper]](https://openreview.net/pdf?id=z9MxyboJ7R)
 
-{{< figure src="/paper_images/sim3d.png" >}}
+{{< figure src="/paper_images/sim3d.webp" >}}
 Alex Costanzino, __Pierluigi Zama Ramirez__, Luigi Lella, Matteo Ragaglia, Alessandro Oliva, Giuseppe Lisanti, Luigi Di Stefano \
 _SiM3D: Single-instance Multiview Multimodal and Multisetup 3D Anomaly Detection Benchmark_ \
 __ICCV 2025__ \
 [[Project Page]](https://alex-costanzino.github.io/SiM3D/)
 [[Paper]](https://openaccess.thecvf.com/content/ICCV2025/papers/Costanzino_SiM3D_Single-instance_Multiview_Multimodal_and_Multisetup_3D_Anomaly_Detection_Benchmark_ICCV_2025_paper.pdf)
 
-{{< figure src="/paper_images/mmsam.png" >}}
+{{< figure src="/paper_images/mmsam.webp" >}}
 Iacopo Curti, __Pierluigi Zama Ramirez__, Alioscia Petrelli, Luigi Di Stefano \
 _Multimodal SAM-Adapter for Semantic Segmentation_ \
 __IEEE Access__ \
 [[Project Page]](https://github.com/iacopo97/Multimodal-SAM-Adapter)
 [[Paper]](https://ieeexplore.ieee.org/abstract/document/11162503)
 
-{{< figure src="/paper_images/learning2be.png" >}}
+{{< figure src="/paper_images/learning2be.webp" >}}
 Alex Costanzino, __Pierluigi Zama Ramirez__, Giuseppe Lisanti, Luigi Di Stefano \
 _Learning to Be a Transformer to Pinpoint Anomalies_ \
 __IEEE Access__ \
 [[Paper]](https://ieeexplore.ieee.org/abstract/document/11048772)
 
-{{< figure src="/paper_images/tricky2025_depth.png" >}}
+{{< figure src="/paper_images/tricky2025_depth.webp" >}}
 __Pierluigi Zama Ramirez__, Alex Costanzino, Fabio Tosi, Matteo Poggi, Luigi Di Stefano, Jean-Baptiste Weibel, Doris Antensteiner, Markus Vincze, Benjamin Busam, Guangyao Zhai, Weihang Li, Junwen Huang, Hyunjun Jung, Mykola Lavreniuk, Pihai Sun, Yijun Luo, Hongtao Wang, Manying Gao, Kui Jiang, Junjun Jiang \
 _TRICKY 2025 Challenge on Monocular Depth from Images of Specular and Transparent Surfaces_ \
 ___ICCVW 2025___ \
 [[Paper]](https://openaccess.thecvf.com/content/ICCV2025W/TRICKY/papers/Ramirez_TRICKY_2025_Challenge_on_Monocular_Depth_from_Images_of_Specular_ICCVW_2025_paper.pdf)
 
-{{< figure src="/paper_images/tricky2025_pose.png" >}}
+{{< figure src="/paper_images/tricky2025_pose.webp" >}}
 Weihang Li, Junwen Huang, HyunJun Jung, Guangyao Zhai, __Pierluigi Zama Ramirez__, et al. \
 _TRICKY 2025 HouseCat6D Object Pose Estimation Challenge with Specular and Transparent Surfaces_ \
 ___ICCVW 2025___ \
 [[Paper]](https://openaccess.thecvf.com/content/ICCV2025W/TRICKY/papers/Li_TRICKY_2025_HouseCat6D_Object_Pose_Estimation_Challenge_with_Specular_and_ICCVW_2025_paper.pdf)
 
-{{< figure src="/paper_images/ntire2025.png" >}}
+{{< figure src="/paper_images/ntire2025.webp" >}}
 __Pierluigi Zama Ramirez__, Fabio Tosi, Luigi Di Stefano, Radu Timofte, Alex Costanzino, Matteo Poggi et al. \
 _NTIRE 2025 Challenge on HR Depth From Images of Specular and Transparent Surfaces_ \
 ___CVPRW 2025___ \
@@ -98,20 +98,20 @@ ___CVPRW 2025___ \
 
 ## 2024
 
-{{< figure src="/paper_images/llana.png" >}}
+{{< figure src="/paper_images/llana.webp" >}}
 Andrea Amaduzzi, __Pierluigi Zama Ramirez__, Giuseppe Lisanti, Samuele Salti, Luigi Di Stefano. \
 _LLaNA: Large Language and NeRF Assistant_ \
 ___NeurIPS 2024___ \
 [[Project Page]](https://andreamaduzzi.github.io/llana/)
 [[Paper]](https://arxiv.org/abs/2406.11840)
 
-{{< figure src="/paper_images/tricky.png" >}}
+{{< figure src="/paper_images/tricky.webp" >}}
 __Pierluigi Zama Ramirez__, Alex Costanzino, Fabio Tosi, Matteo Poggi, Luigi Di Stefano, Jean-Baptiste Weibel, et al. \
 _TRICKY 2024 Challenge on Monocular Depth from Images of Specular and Transparent Surfaces_ \
 ___ECCVW 2024___
 
 
-{{< figure src="/paper_images/nf2vec.png" >}}
+{{< figure src="/paper_images/nf2vec.webp" >}}
 __Pierluigi Zama Ramirez\*__, Luca De Luigi\*, Daniele Sirocchi\*, Adriano Cardace, Riccardo Spezialetti, Francesco Ballerini, Samuele Salti, and Luigi Di Stefano. (\*Equal Contribution) \
 _Deep Learning on Object-centric 3D Neural Fields_ \
 ___TPAMI 2024___ \
@@ -119,45 +119,45 @@ ___TPAMI 2024___ \
 [[Paper]](https://arxiv.org/abs/2312.13277)
 
 
-{{< figure src="/paper_images/depth4robust.png" >}}
+{{< figure src="/paper_images/depth4robust.webp" >}}
 Fabio Tosi, __Pierluigi Zama Ramirez__, and Matteo Poggi. \
 _Diffusion Models for Monocular Depth Estimation: Overcoming Challenging Conditions_ \
 ___ECCV 2024___ \
 [[Project Page]](https://diffusion4robustdepth.github.io/)
 
-{{< figure src="/paper_images/ndr_journal.png">}}
+{{< figure src="/paper_images/ndr_journal.webp">}}
 Fabio Tosi, Filippo Aleotti, __Pierluigi Zama Ramirez__, Matteo Poggi, Samuele Salti, Stefano Mattoccia, and Luigi Di Stefano. \
 _Neural Disparity Refinement_ \
 ___TPAMI 2024___ \
 [[Paper]](https://ieeexplore.ieee.org/document/10552115)
 
-{{< figure src="/paper_images/ntire2024.png" >}}
+{{< figure src="/paper_images/ntire2024.webp" >}}
 __Pierluigi Zama Ramirez__, Fabio Tosi, Luigi Di Stefano, Radu Timofte, Alex Costanzino, Matteo Poggi et al. \
 _NTIRE 2024 Challenge on HR Depth From Images of Specular and Transparent Surfaces_ \
 ___CVPRW 2024___ \
 [[Paper]](https://openaccess.thecvf.com/content/CVPR2024W/NTIRE/papers/Ramirez_NTIRE_2024_Challenge_on_HR_Depth_from_Images_of_Specular_CVPRW_2024_paper.pdf)
 
-{{< figure src="/paper_images/ttt.png" >}}
+{{< figure src="/paper_images/ttt.webp" >}}
 Alex Costanzino, __Pierluigi Zama Ramirez__, Mirko Del Moro, Agostino Aiezzo, Giuseppe Lisanti, and Luigi Di Stefano. \
 _Test Time Training for Industrial Anomaly Segmentation_ \
 ___CVPRW 2024___ \
 [[Paper]](https://arxiv.org/abs/2404.03743)
 
-{{< figure src="/paper_images/nerf2clip.png" >}}
+{{< figure src="/paper_images/nerf2clip.webp" >}}
 Francesco Ballerini, __Pierluigi Zama Ramirez__, Roberto Mirabella, Samuele Salti, and Luigi Di Stefano. \
 _Connecting NeRFs, Images, and Text_ \
 ___CVPRW 2024___ \
 [[Project Page]](https://cvlab-unibo.github.io/clip2nerf/)
 [[Paper]](https://arxiv.org/abs/2404.07993)
 
-{{< figure src="/paper_images/cfm.png" >}}
+{{< figure src="/paper_images/cfm.webp" >}}
 Alex Costanzino\*, __Pierluigi Zama Ramirez\*__, Giuseppe Lisanti, and Luigi Di Stefano. \
 _Multimodal Industrial Anomaly Detection by Crossmodal Feature Mapping_ \
 ___CVPR 2024___ \
 [[Project Page]](https://cvlab-unibo.github.io/CrossmodalFeatureMapping/)
 [[Paper]](https://arxiv.org/pdf/2312.04521.pdf)
 
-{{< figure src="/paper_images/triplane.png" >}}
+{{< figure src="/paper_images/triplane.webp" >}}
 Adriano Cardace, __Pierluigi Zama Ramirez__, Francesco Ballerini, Allan Zhou, Samuele Salti, and Luigi Di Stefano. \
 _Neural Processing of Tri-Plane Hybrid Neural Fields_ \
 ___ICLR 2024___ \
@@ -166,54 +166,54 @@ ___ICLR 2024___ \
 
 ## 2023
 
-{{< figure src="/paper_images/booster2.png" >}}
+{{< figure src="/paper_images/booster2.webp" >}}
 __Pierluigi Zama Ramirez__, Alex Costanzino, Fabio Tosi, Matteo Poggi, Samuele Salti, Stefano Mattoccia, and Luigi Di Stefano. \
 _Booster: a Benchmark for Depth from Images of Specular and Transparent Surfaces_ \
 ___TPAMI 2023___ \
 [[Project Page]](https://cvlab-unibo.github.io/booster-web/)
 [[Paper]](https://doi.org/10.1109/TPAMI.2023.3323858)
 
-{{< figure src="/paper_images/cts.png" >}}
+{{< figure src="/paper_images/cts.webp" >}}
 Adriano Cardace, Andrea Conti, __Pierluigi Zama Ramirez__, Riccardo Spezialetti, Samuele Salti, and Luigi Di Stefano. \
 _Boosting Multi-Modal Unsupervised Domain Adaptation for LiDAR Semantic Segmentation by Self-Supervised Depth Completion_ \
 ___IEEE Access___ \
 [[Project Page]](https://cvlab-unibo.github.io/cts-web/)
 [[Paper]](https://doi.org/10.1109/ACCESS.2023.3304542)
 
-{{< figure src="/paper_images/depth4tom.png" >}}
+{{< figure src="/paper_images/depth4tom.webp" >}}
 Alex Costanzino\*, __Pierluigi Zama Ramirez\*__, Matteo Poggi\*, Fabio Tosi, Stefano Mattoccia, and Luigi Di Stefano. \
 _Learning Depth Estimation for Transparent and Mirror Surfaces_ \
 ___ICCV 2023___ \
 [[Project Page]](https://cvlab-unibo.github.io/Depth4ToM/)
 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Costanzino_Learning_Depth_Estimation_for_Transparent_and_Mirror_Surfaces_ICCV_2023_paper.pdf)
 
-{{< figure src="/paper_images/ntire2023.png" >}}
+{{< figure src="/paper_images/ntire2023.webp" >}}
 __Pierluigi Zama Ramirez__, Fabio Tosi, Luigi Di Stefano, Radu Timofte, Alex Costanzino, Matteo Poggi, Samuele Salti, and Stefano Mattoccia.\
 _NTIRE 2023 Challenge on HR Depth from Images of Specular and Transparent Surfaces._ \
 ___CVPRW 2023___ \
 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023W/NTIRE/papers/Ramirez_NTIRE_2023_Challenge_on_HR_Depth_From_Images_of_Specular_CVPRW_2023_paper.pdf)
 
-{{< figure src="/paper_images/complementary2D3D.png" >}}
+{{< figure src="/paper_images/complementary2D3D.webp" >}}
 Adriano Cardace, __Pierluigi Zama Ramirez__, Samuele Salti, and Luigi Di Stefano. \
 _Exploiting the Complementarity of 2D and 3D Networks to Address Domain-Shift in 3D Semantic Segmentation._ \
 ___CVPRW 2023___ \
 [[Paper]](https://arxiv.org/pdf/2304.02991.pdf)
 [[Code]](https://github.com/CVLAB-Unibo/MM2D3D)
 
-{{< figure src="/paper_images/inr2vec.png" >}}
+{{< figure src="/paper_images/inr2vec.webp" >}}
 Luca De Luigi\*, Adriano Cardace\*, Riccardo Spezialetti\*, __Pierluigi Zama Ramirez__, Samuele Salti, and Luigi Di Stefano (\*Equal Contribution) \
 _Deep Learning on Implicit Neural Representations of Shapes._ \
 ___ICLR 2023___ \
 [[Project Page]](https://cvlab-unibo.github.io/inr2vec/)
 [[Paper]](https://arxiv.org/abs/2302.05438)
 
-{{< figure src="/paper_images/atdt2.png" >}}
+{{< figure src="/paper_images/atdt2.webp" >}}
 __Pierluigi Zama Ramirez\*__, Adriano Cardace\*, Luca De Luigi\*, Alessio Tonioni, Samuele Salti, and Luigi Di Stefano. (\*Equal Contribution) \
 _Learning Good Features to Transfer Across Tasks and Domains._ \
 ___TPAMI 2023___ \
 [[Paper]](https://arxiv.org/abs/2301.11310)
 
-{{< figure src="/paper_images/selfdistillation.png" >}}
+{{< figure src="/paper_images/selfdistillation.webp" >}}
 Adriano Cardace, Riccardo Spezialetti, __Pierluigi Zama Ramirez__, Samuele Salti, and Luigi Di Stefano. \
 _Self-Distillation for Unsupervised 3D Domain Adaptation._ \
 ___WACV 2023___ \
@@ -222,35 +222,35 @@ ___WACV 2023___ \
 
 ## 2022
 
-{{< figure src="/paper_images/crossspectralnerf.png" >}}
+{{< figure src="/paper_images/crossspectralnerf.webp" >}}
 Matteo Poggi\*, __Pierluigi Zama Ramirez\*__, Fabio Tosi\*, Samuele Salti, Stefano Mattoccia, and Luigi Di Stefano. (\*Equal Contribution) \
 _Cross-Spectral Neural Radiance Fields._ \
 ___3DV 2022___ \
 [[Project Page]](https://cvlab-unibo.github.io/xnerf-web/)
 [[Paper]](https://arxiv.org/pdf/2209.00648.pdf)
 
-{{< figure src="/paper_images/booster.png" >}}
+{{< figure src="/paper_images/booster.webp" >}}
 __Pierluigi Zama Ramirez\*__, Fabio Tosi\*, Matteo Poggi\*, Samuele Salti, Stefano Mattoccia, and Luigi Di Stefano. (\*Equal Contribution)\
 _Open Challenges in Deep Stereo: the Booster Dataset_ \
 ___CVPR 2022___ \
 [[Project Page]](https://cvlab-unibo.github.io/booster-web/)
 [[Paper]](https://arxiv.org/abs/2206.04671)
 
-{{< figure src="/paper_images/rgbms.png" >}}
+{{< figure src="/paper_images/rgbms.webp" >}}
 Fabio Tosi\*, __Pierluigi Zama Ramirez\*__, Matteo Poggi\*, Samuele Salti, Stefano Mattoccia, and Luigi Di Stefano. (\*Equal Contribution)\
 _RGB-Multispectral Matching: Dataset, Learning Methodology, Evaluation_\
 ___CVPR 2022___ \
 [[Project Page]](https://cvlab-unibo.github.io/rgb-ms-web/)
 [[Paper]](https://arxiv.org/abs/2206.07047)
 
-{{< figure src="/paper_images/plugging.png" >}}
+{{< figure src="/paper_images/plugging.webp" >}}
 Adriano Cardace, Luca De Luigi, __Pierluigi Zama Ramirez__, Samuele Salti, and Luigi Di Stefano. \
 _Plugging Self-Supervised Monocular Depth into Unsupervised Domain Adaptation for Semantic Segmentation._ \
 ___WACV 2022___ \
 [[Project Page]](https://github.com/CVLAB-Unibo/d4-dbst)
 [[Paper]](https://arxiv.org/pdf/2110.06685.pdf)
 
-{{< figure src="/paper_images/shallow.png" >}}
+{{< figure src="/paper_images/shallow.webp" >}}
 Adriano Cardace, __Pierluigi Zama Ramirez__, Samuele Salti, and Luigi Di Stefano. \
 Shallow Features Guide Unsupervised Domain Adaptation for Semantic Segmentation at Class Boundaries. \
 ___WACV 2022___ \
@@ -258,21 +258,21 @@ ___WACV 2022___ \
 
 ## 2021
 
-{{< figure src="/paper_images/refrec.png" >}}
+{{< figure src="/paper_images/refrec.webp" >}}
 Adriano Cardace, Riccardo Spezialetti, __Pierluigi Zama Ramirez__, Samuele Salti, and Luigi Di Stefano. \
 _RefRec: Pseudo-labels Refinement via Shape Reconstruction for Unsupervised 3D Domain Adaptation._ \
 ___3DV 2021. Oral___ \
 [[Project Page]](https://github.com/CVLAB-Unibo/RefRec) 
 [[Paper]](https://arxiv.org/pdf/2110.11036.pdf)
 
-{{< figure src="/paper_images/ndr.png" >}}
+{{< figure src="/paper_images/ndr.webp" >}}
 Filippo Aleotti\*, Fabio Tosi\*, __Pierluigi Zama Ramirez\*__, Matteo Poggi, Samuele Salti, Stefano Mattoccia, and Luigi Di Stefano. (\*Equal Contribution) \
 _Neural Disparity Refinement for Arbitrary Resolution Stereo_ \
 ___3DV 2021. Best Paper Honorable Mention___ \
 [[Project Page]](https://cvlab-unibo.github.io/neural-disparity-refinement-web)
 [[Paper]](https://arxiv.org/abs/2110.15367)
 
-{{< figure src="/paper_images/sister.png" >}}
+{{< figure src="/paper_images/sister.webp" >}}
 Daniele De Gregorio, Matteo Poggi, __Pierluigi Zama Ramirez__, Gianluca Palli, Stefano Mattoccia, and Luigi Di Stefano. \
 _Beyond the baseline: 3D reconstruction of tiny objects with Single camera Stereo Robot._ \
 ___IEEE Access___ \
@@ -280,14 +280,14 @@ ___IEEE Access___ \
 
 ## 2020
 
-{{< figure src="/paper_images/shootinglabels.png" >}}
+{{< figure src="/paper_images/shootinglabels.webp" >}}
 __Pierluigi Zama Ramirez__, Claudio Paternesi, Luca De Luigi, Luigi Lella, Daniele De Gregorio, and Luigi Di Stefano. \
 _Shooting Labels: 3D Semantic Labeling by Virtual Reality_ \
 ___AIVR 2020. Best Paper Nominee___ \
 [[Project Page]](https://cvlab-unibo.github.io/shootinglabelsweb/)
 [[Paper]](https://arxiv.org/abs/1910.05021)
 
-{{< figure src="/paper_images/omeganet.png" >}}
+{{< figure src="/paper_images/omeganet.webp" >}}
 Fabio Tosi\*, Filippo Aleotti\*, __Pierluigi Zama Ramirez\*__, Matteo Poggi, Samuele Salti, Stefano Mattoccia, and Luigi Di Stefano. (\*Equal Contribution)\
 _Distilled Semantics for Comprehensive Scene Understanding from Videos_ \
 ___CVPR 2020___ \
@@ -296,7 +296,7 @@ ___CVPR 2020___ \
 
 ## 2019
 
-{{< figure src="/paper_images/atdt.png" >}}
+{{< figure src="/paper_images/atdt.webp" >}}
 __Pierluigi Zama Ramirez__, Alessio Tonioni, Samuele Salti, and Luigi Di Stefano. \
 _Learning Across Tasks and Domains_ \
 ___ICCV 2019___ \
