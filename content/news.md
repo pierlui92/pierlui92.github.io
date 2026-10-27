@@ -1,7 +1,26 @@
+## 2026
+
+* 2 papers accepted at WACV 2027!
+* Recognized as Outstanding Reviewer at ECCV 2026!
+* 1 paper accepted at ECCV 2026 as Spotlight!
+* Co-organizing NTIRE 2026 Workshop at CVPR 2026!
+* 1 paper accepted at CVPRW 2026!
+* 1 paper accepted at CVPR Findings 2026!
+* Recognized as Outstanding Reviewer at CVPR 2026!
+* Serving as Associate Editor for IROS 2026!
+* Got an ISCRA-C HPC grant from CINECA as PI for the project "Gaussian Splatting LLM"!
+* Invited talks at the AI Workshop Days and at Campus Tale, Ca' Foscari University of Venice!
+* Started the IRIDEB project on Very High-Resolution Image Processing as PI!
+* Teaching "Computer Programming and Laboratory 1" and "Social Media and Web Analytics" at Ca' Foscari!
+* 1 paper accepted at ICLR 2026!
+
 ## 2025
 
 * Starting the new role of Associate Professor at the Ca' Foscari University of Venice!
 * 1 paper accepted at NeurIPS!
+* Invited talk (online) at Koç University, Istanbul!
+* Serving as Associate Editor for IROS 2025!
+* Recognized as Outstanding Reviewer at CVPR 2025 (~3% of ~12000 reviewers)!
 * Got the italian ASN in IINF-05 and INFO-01!
 * 1 paper accepted at ICCV!
 * 2 paper accepted at ICCVW!

@@ -1,5 +1,53 @@
 # Publications
 
+## 2027
+
+{{< figure src="/paper_images/coordformer.png" >}}
+Iacopo Curti, __Pierluigi Zama Ramirez__, Alioscia Petrelli, Luigi Di Stefano \
+_CoordFormer: Give Me Any Coordinates and I Will Give You Labels_ \
+___WACV 2027___ \
+[[Project Page]](https://iacopo97.github.io/CoordFormer/)
+[[Paper]](https://arxiv.org/abs/2609.08660)
+
+{{< figure src="/paper_images/gigabench.png" >}}
+Matteo Fusconi, Alex Costanzino, __Pierluigi Zama Ramirez__, Luigi Di Stefano \
+_Benchmarking Learnable Representations for Gigapixel Image Compression and Super-Resolution_ \
+___WACV 2027___ \
+[[Project Page]](https://matteofusconi.github.io/GigaBench/)
+[[Paper]](https://arxiv.org/abs/2610.31644)
+
+## 2026
+
+{{< figure src="/paper_images/fdho.png" >}}
+Alex Costanzino, __Pierluigi Zama Ramirez__, Giuseppe Lisanti, Luigi Di Stefano \
+_Spectral Gating via Damped Oscillations for Adaptive Implicit Neural Representations_ \
+___ECCV 2026. Spotlight___ \
+[[Project Page]](https://alex-costanzino.github.io/fdho/)
+[[Paper]](https://arxiv.org/abs/2606.23129)
+[[Code]](https://github.com/alex-costanzino/fdho-release)
+
+{{< figure src="/paper_images/modmap.png" >}}
+Alex Costanzino, __Pierluigi Zama Ramirez__, Giuseppe Lisanti, Luigi Di Stefano \
+_Modulate-and-Map: Crossmodal Feature Mapping with Cross-View Modulation for 3D Anomaly Detection_ \
+___CVPR Findings 2026___ \
+[[Project Page]](https://alex-costanzino.github.io/modmap/)
+[[Paper]](https://arxiv.org/abs/2604.02328)
+[[Code]](https://github.com/alex-costanzino/modmap-code)
+
+{{< figure src="/paper_images/ntire2026.png" >}}
+__Pierluigi Zama Ramirez__, Fabio Tosi, Luigi Di Stefano, Radu Timofte, Alex Costanzino, Matteo Poggi et al. \
+_NTIRE 2026 Challenge on High-Resolution Depth of non-Lambertian Surfaces_ \
+___CVPRW 2026___ \
+[[Paper]](https://openaccess.thecvf.com/content/CVPR2026W/NTIRE/papers/Ramirez_NTIRE_2026_Challenge_on_High-Resolution_Depth_of_non-Lambertian_Surfaces_CVPRW_2026_paper.pdf)
+
+{{< figure src="/paper_images/gmnerf.png" >}}
+Francesco Ballerini, __Pierluigi Zama Ramirez__, Luigi Di Stefano, Samuele Salti \
+_Weight Space Representation Learning on Diverse NeRF Architectures_ \
+___ICLR 2026___ \
+[[Project Page]](https://cvlab-unibo.github.io/gmnerf/)
+[[Paper]](https://openreview.net/forum?id=u90rHXaBve)
+[[Code]](https://github.com/CVLAB-Unibo/gmnerf)
+
 ## 2025
 
 {{< figure src="/paper_images/sllana.png" >}}
@@ -29,17 +77,19 @@ _Learning to Be a Transformer to Pinpoint Anomalies_ \
 __IEEE Access__ \
 [[Paper]](https://ieeexplore.ieee.org/abstract/document/11048772)
 
+{{< figure src="/paper_images/tricky2025_depth.png" >}}
 __Pierluigi Zama Ramirez__, Alex Costanzino, Fabio Tosi, Matteo Poggi, Luigi Di Stefano, Jean-Baptiste Weibel, Doris Antensteiner, Markus Vincze, Benjamin Busam, Guangyao Zhai, Weihang Li, Junwen Huang, Hyunjun Jung, Mykola Lavreniuk, Pihai Sun, Yijun Luo, Hongtao Wang, Manying Gao, Kui Jiang, Junjun Jiang \
 _TRICKY 2025 Challenge on Monocular Depth from Images of Specular and Transparent Surfaces_ \
 ___ICCVW 2025___ \
 [[Paper]](https://openaccess.thecvf.com/content/ICCV2025W/TRICKY/papers/Ramirez_TRICKY_2025_Challenge_on_Monocular_Depth_from_Images_of_Specular_ICCVW_2025_paper.pdf)
 
+{{< figure src="/paper_images/tricky2025_pose.png" >}}
 Weihang Li, Junwen Huang, HyunJun Jung, Guangyao Zhai, __Pierluigi Zama Ramirez__, et al. \
 _TRICKY 2025 HouseCat6D Object Pose Estimation Challenge with Specular and Transparent Surfaces_ \
 ___ICCVW 2025___ \
 [[Paper]](https://openaccess.thecvf.com/content/ICCV2025W/TRICKY/papers/Li_TRICKY_2025_HouseCat6D_Object_Pose_Estimation_Challenge_with_Specular_and_ICCVW_2025_paper.pdf)
 
-
+{{< figure src="/paper_images/ntire2025.png" >}}
 __Pierluigi Zama Ramirez__, Fabio Tosi, Luigi Di Stefano, Radu Timofte, Alex Costanzino, Matteo Poggi et al. \
 _NTIRE 2025 Challenge on HR Depth From Images of Specular and Transparent Surfaces_ \
 ___CVPRW 2025___ \
@@ -82,7 +132,7 @@ ___TPAMI 2024___ \
 [[Paper]](https://ieeexplore.ieee.org/document/10552115)
 
 {{< figure src="/paper_images/ntire2024.png" >}}
-__Pierluigi Zama Ramirez__, Fabio Tosi, Luigi Di Stefano, Radu Timofte, Alex Costanzino, Matteo Poggi et al.
+__Pierluigi Zama Ramirez__, Fabio Tosi, Luigi Di Stefano, Radu Timofte, Alex Costanzino, Matteo Poggi et al. \
 _NTIRE 2024 Challenge on HR Depth From Images of Specular and Transparent Surfaces_ \
 ___CVPRW 2024___ \
 [[Paper]](https://openaccess.thecvf.com/content/CVPR2024W/NTIRE/papers/Ramirez_NTIRE_2024_Challenge_on_HR_Depth_from_Images_of_Specular_CVPRW_2024_paper.pdf)
@@ -180,14 +230,14 @@ ___3DV 2022___ \
 [[Paper]](https://arxiv.org/pdf/2209.00648.pdf)
 
 {{< figure src="/paper_images/booster.png" >}}
-__Pierluigi Zama Ramirez\*__, Fabio Tosi\*, Matteo Poggi\*, Samuele Salti, Stefano Mattocia, and Luigi Di Stefano. (\*Equal Contribution)\
+__Pierluigi Zama Ramirez\*__, Fabio Tosi\*, Matteo Poggi\*, Samuele Salti, Stefano Mattoccia, and Luigi Di Stefano. (\*Equal Contribution)\
 _Open Challenges in Deep Stereo: the Booster Dataset_ \
 ___CVPR 2022___ \
 [[Project Page]](https://cvlab-unibo.github.io/booster-web/)
 [[Paper]](https://arxiv.org/abs/2206.04671)
 
 {{< figure src="/paper_images/rgbms.png" >}}
-Fabio Tosi\*, __Pierluigi Zama Ramirez\*__, Matteo Poggi\*, Samuele Salti, Stefano Mattocia, and Luigi Di Stefano. (\*Equal Contribution)\
+Fabio Tosi\*, __Pierluigi Zama Ramirez\*__, Matteo Poggi\*, Samuele Salti, Stefano Mattoccia, and Luigi Di Stefano. (\*Equal Contribution)\
 _RGB-Multispectral Matching: Dataset, Learning Methodology, Evaluation_\
 ___CVPR 2022___ \
 [[Project Page]](https://cvlab-unibo.github.io/rgb-ms-web/)
@@ -231,14 +281,14 @@ ___IEEE Access___ \
 ## 2020
 
 {{< figure src="/paper_images/shootinglabels.png" >}}
-__Pierluigi Zama Ramirez__, Claudio Paternesi, Luca De Luigi, Daniele De Gregorio, and Luigi Di Stefano. \
+__Pierluigi Zama Ramirez__, Claudio Paternesi, Luca De Luigi, Luigi Lella, Daniele De Gregorio, and Luigi Di Stefano. \
 _Shooting Labels: 3D Semantic Labeling by Virtual Reality_ \
 ___AIVR 2020. Best Paper Nominee___ \
 [[Project Page]](https://cvlab-unibo.github.io/shootinglabelsweb/)
 [[Paper]](https://arxiv.org/abs/1910.05021)
 
 {{< figure src="/paper_images/omeganet.png" >}}
-Fabio Tosi\*, Filippo Aleotti\*, __Pierluigi Zama Ramirez\*__, Matteo Poggi, Samuele Salti, Stefano Mattocia, and Luigi Di Stefano. (\*Equal Contribution)\
+Fabio Tosi\*, Filippo Aleotti\*, __Pierluigi Zama Ramirez\*__, Matteo Poggi, Samuele Salti, Stefano Mattoccia, and Luigi Di Stefano. (\*Equal Contribution)\
 _Distilled Semantics for Comprehensive Scene Understanding from Videos_ \
 ___CVPR 2020___ \
 [[Project Page]](https://github.com/CVLAB-Unibo/omeganet)

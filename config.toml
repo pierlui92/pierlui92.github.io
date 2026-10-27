@@ -44,6 +44,14 @@ languageName = "English"
     title = "Publications"
   [[menu.main]]
     weight = 4
+    identifier = "opportunities"
+    pre = ""
+    post = ""
+    name = "Opportunities"
+    url = "opportunities"
+    title = "Thesis and internships"
+  [[menu.main]]
+    weight = 5
     identifier = "cv"
     pre = ""
     post = ""
@@ -61,7 +69,7 @@ languageName = "English"
 
 [params]
   author = "Pierluigi Zama Ramirez"
-  email = "zamapierluigi@hotmail.it"
+  email = "pier.zamaramirez@unive.it"
   link = ""
   # site default theme ["auto", "light", "dark"]
   defaultTheme = "auto"
@@ -75,7 +83,7 @@ languageName = "English"
   # website title for Open Graph and Twitter Cards
   title = "Pierluigi Zama Ramirez"
   # website description for RSS, SEO, Open Graph and Twitter Cards
-  description = "This is my cool site"
+  description = "Pierluigi Zama Ramirez, Associate Professor at Ca' Foscari University of Venice. Research in Computer Vision and Deep Learning: 3D vision, depth estimation, anomaly detection, neural fields."
   # website images for Open Graph and Twitter Cards
   images = ["/logo.png"]
 
@@ -191,7 +199,7 @@ languageName = "English"
       # whether to show social links
       social = true
       # LoveIt NEW | 0.2.0 disclaimer (HTML format is supported)
-      disclaimer = ""
+      disclaimer = '<a href="/opportunities/">Looking for a thesis, an internship or a PhD in Computer Vision? Get in touch!</a>'
     # Home page posts
     [params.home.posts]
       enable = true
@@ -256,8 +264,8 @@ languageName = "English"
     Dribbble = ""
     Wordpress = ""
     Vine = ""
-    Googlescholar = ""
-    Researchgate = ""
+    Googlescholar = "user=OAYAmKYAAAAJ"
+    Researchgate = "Pierluigi-Zama-Ramirez-2"
     Mastodon = ""
     Thingiverse = ""
     Devto = ""
@@ -276,7 +284,7 @@ languageName = "English"
     HackTheBox = ""
     RootMe= ""
     Phone = ""
-    Email = "pierluigi.zama@unibo.it"
+    Email = "pier.zamaramirez@unive.it"
     RSS = ""
 
   # LoveIt CHANGED | 0.2.0 Page global config
